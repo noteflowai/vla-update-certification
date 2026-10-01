@@ -10,7 +10,7 @@ The analytic figure uses exact constructed probabilities: both distributions hav
 
 - `paper/anonymous-development-review.pdf`: six pages (five body, one references), one vector figure and two tables. The immutable source archive and original verification receipt accompany it.
 - `runs/`: frozen synthetic development cohorts and collector source snapshots. `analysis/`: independently checked summaries and figures.
-- `experiments/`: methods, validators, synthetic engineering controls and native collection implementation. The frozen native study plan is in `protocols/`. Model health checks and orchestration fixtures are not update-efficacy results.
+- `experiments/`: methods, validators, synthetic engineering controls and native collection implementation. The frozen native study plan is in `protocols/`. Model health checks and orchestration fixtures are not update-efficacy results. The public synthetic health fixture mocks the installed-factory digest so CPU checks do not require a local LeRobot installation; frozen source snapshots remain byte-identical.
 
 CPU checks, without loading a model:
 

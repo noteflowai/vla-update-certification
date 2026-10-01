@@ -80,8 +80,8 @@ def health_fixture(folder):
                 "control_mode": control, "reset_mode": "canonical", "episode_limit": 520,
                 "loader": "direct_cuda_strict", "cases": cases,
                 "sources": {str(source): digest_file(source)},
-                "installed_policy_factory_sha256": digest_file(
-                    "/tmp/vlareg/.venv/lib/python3.12/site-packages/lerobot/policies/factory.py"),
+                # Synthetic validator fixture; no installed model package is required.
+                "installed_policy_factory_sha256": "b" * 64,
                 "model_weight_sha256": "a" * 64, "packages": {}}
     rows = [{**case, "success": True, "infrastructure_error": None,
              "reset_state_exact": True, "reset_inputs_exact": True, "steps": 2}
@@ -229,7 +229,11 @@ class NativeTests(unittest.TestCase):
                     producer.produce_many(identities)
             self.assertEqual(backend.events, [])
 
-    def test_complete_fixture_health_passes_but_partial_or_altered_evidence_does_not(self):
+    @patch("native_collection.digest_file", side_effect=lambda path:
+           "b" * 64 if str(path) ==
+           "/tmp/vlareg/.venv/lib/python3.12/site-packages/lerobot/policies/factory.py"
+           else digest_file(path))
+    def test_complete_fixture_health_passes_but_partial_or_altered_evidence_does_not(self, _factory):
         with tempfile.TemporaryDirectory() as folder:
             receipt = health_fixture(folder)
             self.assertEqual(verify_health(receipt, "pi05")["model_weight_sha256"], "a" * 64)
