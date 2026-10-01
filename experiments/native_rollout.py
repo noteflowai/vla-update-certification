@@ -50,8 +50,10 @@ class LiberoNativeBackend:
         from health_supervisor import resource_probe
         from update_variants import configure_variant, round_linear_weights
         probe = resource_probe()
+        atomic_json(folder / f"resource-{batch_id}-{side}-admission.json", probe)
         if not probe["allowed"]:
-            raise RuntimeError("Native pipeline loading requires current resource headroom")
+            raise RuntimeError("Native pipeline loading requires current resource headroom: "
+                               + json.dumps(probe, sort_keys=True))
         for name, expected in context["evaluator"]["sources"].items():
             if digest_file(name) != expected:
                 raise ValueError("Frozen evaluator source changed: " + name)
@@ -73,6 +75,7 @@ class LiberoNativeBackend:
                 raise ValueError("Checkpoint bytes differ from the health-validated model")
             self.verified_checkpoint = signature
         probe = resource_probe()
+        atomic_json(folder / f"resource-{batch_id}-{side}-construction.json", probe)
         if not probe["allowed"]:
             raise RuntimeError("Resource headroom changed before native model construction")
         h.torch.set_num_threads(2)
@@ -189,22 +192,31 @@ class LiberoNativeBackend:
                     delivered_success = bool(h.np.asarray(info["is_success"])[0])
                     if actual_success != delivered_success:
                         raise RuntimeError("Native delivered success differs from the actual checker")
+                    env_terminated, env_truncated = bool(terminated[0]), bool(truncated[0])
+                    collector_truncated = step == 519 and not (env_terminated or env_truncated)
                     row = {"step": step, "success": delivered_success,
                            "actual_success": actual_success,
                            "goal_values": [bool(domain._eval_predicate(goal))
                                            for goal in domain.parsed_problem["goal_state"]],
-                           "terminated": bool(terminated[0]), "truncated": bool(truncated[0]),
+                           "terminated": env_terminated,
+                           "truncated": env_truncated or collector_truncated,
+                           "environment_terminated": env_terminated,
+                           "environment_truncated": env_truncated,
+                           "collector_truncated": collector_truncated,
                            "reward": h.np.asarray(reward).tolist(),
                            "simulator_state_sha256": h.sha256(h.sim_state(vector).tobytes()).hexdigest()}
                     transitions.write(json.dumps(row) + "\n")
                     transitions.flush()
                     os.fsync(transitions.fileno())
-                    if (terminated | truncated).any():
+                    if row["terminated"] or row["truncated"]:
                         episode.update(success=delivered_success, steps=step + 1,
-                                       terminated=bool(terminated[0]), truncated=bool(truncated[0]))
+                                       terminated=row["terminated"], truncated=row["truncated"],
+                                       environment_terminated=env_terminated,
+                                       environment_truncated=env_truncated,
+                                       collector_truncated=collector_truncated)
                         break
                 else:
-                    episode.update(success=False, steps=520, terminated=False, truncated=True)
+                    raise RuntimeError("Native collector horizon did not record a terminal transition")
                 save_arrays(folder / "terminal.npz", {
                     **flatten_observation(observation), "simulator_state": h.sim_state(vector)})
             episode["elapsed_seconds"] = time.monotonic() - started

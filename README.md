@@ -2,7 +2,7 @@
 
 Public development study for **The Cost of Certifying VLA Updates under Statewise Regression Budgets**. The manuscript is an anonymous methods-review draft, not an archival submission, acceptance, or completed native efficacy study.
 
-The six-method development comparison contains 1,440 strategy records from 240 independent synthetic case repetitions (30 per scenario), with paired methods within each repetition. Method rankings depend on the scenario; all methods remain uncertain near the budget boundary. Zero observed errors in 30 repetitions still permits an 11.57% one-sided 95% upper bound. These observations do not establish a generally superior method or a zero-error guarantee.
+The six-method development comparison contains 1,440 strategy records from 240 independent synthetic case repetitions (30 per scenario), with paired methods within each repetition. Method rankings depend on the scenario; all methods remain uncertain near the budget boundary. Zero observed errors in 30 repetitions still permits an 11.57% upper endpoint of the two-sided exact 95% interval. These observations do not establish a generally superior method or a zero-error guarantee.
 
 The analytic figure uses exact constructed probabilities: both distributions have 50% aggregate success and the same pooled paired outcomes, but statewise risk is 0 versus 0.04 at tolerance 0.02 and budget 0.02. This illustrates loss of state information; it does not claim new statistical theory or a sample-complexity lower bound.
 
@@ -24,7 +24,7 @@ cd experiments
 
 Native collection requires the separately pinned LeRobot/LIBERO environments, model revisions, reset inputs, source witnesses, device identity and shared physical budget ledger. Historical absolute paths are preserved in source snapshots and need an explicit fresh environment configuration; they are not a portable, bit-exact simulator replay. Do not run collection commands against a new or reset budget ledger to bypass spent resources. Floating weight round/dequantization does not establish integer-kernel acceleration.
 
-No incomplete native update cohort or private account material is included in this release. No completed native policy-update efficacy comparison is claimed. The ongoing baseline-reload control must complete both sides, clean worker teardown and raw-evidence audit before an engineering pass can be reported. A new release will be needed for verified native results.
+No incomplete native update cohort or private account material is included in this release. No completed native policy-update efficacy comparison is claimed. A subsequent baseline-reload control stopped before the new-side load; independent auditing found a collector-horizon flag mismatch in two old-side episodes. The original data and release attachments are preserved. [Native producer correction and qualification requirements](experiments/NATIVE_ERRATA_20261001.md) document the development-source fix. Both sides, clean worker teardown and raw-evidence audit are required before an engineering pass can be reported. A new release will be needed for verified native results.
 
 Prior paired-outcome preprint: https://github.com/noteflowai/vla-regressions
 

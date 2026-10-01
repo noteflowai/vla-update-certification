@@ -347,10 +347,31 @@ class NativeTests(unittest.TestCase):
     def test_actual_episode_kernel_persists_inputs_actions_checker_and_terminal(self):
         self.exercise_episode_kernel(False)
 
+    def test_rejected_reload_retains_the_actual_resource_probe(self):
+        probe = {"allowed": False, "host_available_bytes": 7,
+                 "host_required_bytes": 18 * 1024 ** 3, "gpu_probe_error": "synthetic timeout"}
+        with tempfile.TemporaryDirectory() as folder, \
+                patch("native_rollout.device_identity", return_value="fixture-device"), \
+                patch("health_supervisor.resource_probe", return_value=probe), \
+                patch.dict(sys.modules, {"run_closedloop_health": SimpleNamespace()}):
+            root = Path(folder)
+            with self.assertRaisesRegex(RuntimeError, "synthetic timeout"):
+                LiberoNativeBackend().load(
+                    "new", {"evaluator": {"device_identity": "fixture-device"}}, root, "fixture")
+            self.assertEqual(json.loads((root / "resource-fixture-new-admission.json").read_text()),
+                             probe)
+            self.assertEqual(list(root.glob("pipeline-*")), [])
+
     def test_actual_episode_kernel_rejects_checker_mismatch_as_infrastructure(self):
         self.exercise_episode_kernel(True)
 
-    def exercise_episode_kernel(self, checker_mismatch):
+    def test_collector_horizon_records_matching_terminal_flags(self):
+        self.exercise_episode_kernel(False, outcome="horizon")
+
+    def test_environment_truncation_retains_its_provenance(self):
+        self.exercise_episode_kernel(False, outcome="environment_truncation")
+
+    def exercise_episode_kernel(self, checker_mismatch, outcome="success"):
         """Exercise the real kernel with a toy vector API, without a model or simulator."""
         with tempfile.TemporaryDirectory() as folder:
             root = Path(folder)
@@ -369,9 +390,10 @@ class NativeTests(unittest.TestCase):
             class Vector:
                 def __init__(self, constructors, **kwargs):
                     self.steps = 0
+                    success = lambda: outcome == "success" and bool(self.steps)
                     domain = SimpleNamespace(parsed_problem={"goal_state": [["fixture"]]},
-                                             _eval_predicate=lambda goal: bool(self.steps))
-                    control = SimpleNamespace(env=domain, check_success=lambda: bool(self.steps))
+                                             _eval_predicate=lambda goal: success())
+                    control = SimpleNamespace(env=domain, check_success=success)
                     environment = SimpleNamespace(_env=control)
                     environment.unwrapped = environment
                     self.envs = [environment]
@@ -386,8 +408,9 @@ class NativeTests(unittest.TestCase):
                     return ("fixture prompt",)
                 def step(self, action):
                     self.steps += 1
-                    return (self.obs(), np.array([1.]), np.array([True]), np.array([False]),
-                            {"is_success": np.array([not checker_mismatch])})
+                    return (self.obs(), np.array([1.]), np.array([outcome == "success"]),
+                            np.array([outcome == "environment_truncation"]),
+                            {"is_success": np.array([outcome == "success" and not checker_mismatch])})
                 def close(self):
                     self.closed = True
             vectors = []
@@ -426,17 +449,26 @@ class NativeTests(unittest.TestCase):
                     error = json.loads((episode_folder / "infrastructure-error.json").read_text())
                     self.assertIsNone(error["success"])
                 else:
-                    result = backend.run_episode("old", identity, episode_folder, time.monotonic() + 10)
-                    self.assertTrue(result["success"])
-                    self.assertEqual(result["steps"], 1)
+                    result = backend.run_episode("old", identity, episode_folder, time.monotonic() + 30)
+                    self.assertEqual(result["success"], outcome == "success")
+                    self.assertEqual(result["steps"], 520 if outcome == "horizon" else 1)
                     self.assertTrue(result["reset_inputs_exact"])
                     for name in ("input-000.npz", "action-000.json", "terminal.npz",
                                  "reset-0.json", "reset-1.json", "transitions.jsonl"):
                         self.assertTrue((episode_folder / name).is_file())
                     with np.load(episode_folder / "input-000.npz", allow_pickle=False) as saved:
                         self.assertEqual(saved["observation/camera"].shape, (1, 2, 2, 3))
-                    transition = json.loads((episode_folder / "transitions.jsonl").read_text())
+                    transitions = [json.loads(line) for line in
+                                   (episode_folder / "transitions.jsonl").read_text().splitlines()]
+                    transition = transitions[-1]
                     self.assertEqual(transition["actual_success"], transition["success"])
+                    self.assertEqual(transition["terminated"], result["terminated"])
+                    self.assertEqual(transition["truncated"], result["truncated"])
+                    self.assertEqual(transition["environment_truncated"],
+                                     outcome == "environment_truncation")
+                    self.assertEqual(transition["collector_truncated"], outcome == "horizon")
+                    self.assertTrue(all(not row["terminated"] and not row["truncated"]
+                                        for row in transitions[:-1]))
                 self.assertTrue(vectors[0].closed)
 
 
