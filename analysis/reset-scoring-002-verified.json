@@ -1,0 +1,31 @@
+{
+  "verified_at": "2026-09-30T10:43:17.379609+00:00",
+  "verified": true,
+  "declared_and_verified_rows": 45,
+  "main_state_mode_rows": 40,
+  "historical_checker_replay_rows": 5,
+  "new_policy_update_episodes": 0,
+  "sources": {
+    "/home/dcvuser/work/research/second-paper-options-2026-09-30/experiments/audit_reset_scoring_fixed.py": "61df37289b19aa61d92c8dbadeeda15fedcd06bb8eb7b98a8d5964f9e71871d8",
+    "/home/dcvuser/work/research/second-paper-options-2026-09-30/protocols/closedloop-suite-001/manifest.json": "aba81247fe986954712200f23cc707ee5ca91978a635fe9ec341b42e6b281f83",
+    "/tmp/vlareg/.venv/lib/python3.12/site-packages/lerobot/envs/libero.py": "97c984f12331527626812ec19967ef399e545535b3571becf044db2417ae9d71",
+    "/tmp/vlareg/.venv/lib/python3.12/site-packages/libero/libero/envs/bddl_utils.py": "f8148a5054e7818cee1ceddda300ff9f15272f8e6600389abd38f102e477cd8c",
+    "/home/dcvuser/work/research/second-paper-options-2026-09-30/experiments/libero_audit_core.py": "18ccfdab055529d3a9bb6664fb065182015e0c456c5cdd357447585afe32148d",
+    "/home/dcvuser/work/research/second-paper-options-2026-09-30/experiments/canonical_reset.py": "4ec41fbfb01a7021ca68f4c67a764bcadcf93a006465a624fa3ce5131499d1cb",
+    "/tmp/vlareg/.venv/lib/python3.12/site-packages/libero/libero/envs/bddl_base_domain.py": "4f4da47dd241ac6590d66c7559d76e44b68669924207f53143ca3a4962921f24",
+    "/home/dcvuser/work/research/second-paper-options-2026-09-30/experiments/HEALTH_AMENDMENT_006.md": "59b3f8fb932e25c908f413c43d003b3cf67ba3b3adc98dd62ba960d5a228992a"
+  },
+  "historical_reference_hashes_at_verification": {
+    "/home/dcvuser/work/research/second-paper-options-2026-09-30/runs/pi05-health-004/manifest.json": "117428b5d37b670aff75000f3f0049853a8444d9eb91a070bb837e8e4efcdae0",
+    "/home/dcvuser/work/research/second-paper-options-2026-09-30/runs/pi05-health-004/episodes.jsonl": "e11150a1b0e8a939f64a31b6d6886107d8c5695eff6a224d4bedc47b77df7808",
+    "/home/dcvuser/work/research/second-paper-options-2026-09-30/runs/pi05-health-004/trace-task0.npz": "6b1951a594a8ff7789952f6051ca2bdb3cf86a385bd436a9a8ab9c284261ff6d",
+    "/home/dcvuser/work/research/second-paper-options-2026-09-30/runs/pi05-health-004/trace-task2.npz": "2aebe4c132f90b944bff0d2a5594d3c0d3981296647e8ae209c7d8e26bf72705",
+    "/home/dcvuser/work/research/second-paper-options-2026-09-30/runs/pi05-health-004/trace-task4.npz": "be59f5a5cd25f201a9a78efb4c5654d43f5dc5c47ec10aec6287d97f4c712aa5",
+    "/home/dcvuser/work/research/second-paper-options-2026-09-30/runs/pi05-health-004/trace-task6.npz": "6eeb077fae52b340db31fd35499686875b3e7ea4b06bf8a6c4a25398c4ca4d6b",
+    "/home/dcvuser/work/research/second-paper-options-2026-09-30/runs/pi05-health-004/trace-task8.npz": "fe2ecdebbfb824d91434863e594f3c9f2529f8d9af7a67d06f5781637df0b5e5"
+  },
+  "summary_sha256": "997ecc8af4d8932479b0fdda64dcdc5a24094ca67fd7bde63a542ef723d95538",
+  "observations_sha256": "53146590b19119df640123512f78d2f1c88ef94a2b9dbb1c8356045382042b0d",
+  "verifier_source_sha256": "450576d671c4c917be4dfe5efc7cb17c76a0b5cb087074c7556694e4a36bdfec",
+  "scope": "Frozen case identities, source archives, three exact input snapshots per case, saved camera assets and historical checker replay. Benchmark predicates, not independent geometry grading or new model-health evidence."
+}

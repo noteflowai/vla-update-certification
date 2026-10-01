@@ -1,0 +1,19 @@
+{
+  "started_at": "2026-09-30T04:25:43.374978+00:00",
+  "repetitions": 100,
+  "budget_paired_samples": 5000,
+  "batch": 10,
+  "states": 20,
+  "alpha": 0.05,
+  "delta": 0.02,
+  "epsilon": 0.02,
+  "seed": 314159,
+  "permuted_states": true,
+  "sources": {
+    "PROTOCOL.md": "985114ac69996992be3ae730b5d1fff95077ac7e46ed69eee5719a4e9c0e75c5",
+    "admission.py": "dd3fa926087e61a6e41cbb3357b6d429ab4298a57723a5efacc00b044485f0da",
+    "run_admission.py": "cf89214ee38322d2af4a9e8c15a37f984d09f82375096373a61b32bab4db1aaa",
+    "test_admission.py": "9888807322a21fd1ddcaddda2642a0aafad80c6ba66dfcadcd748018c8118933"
+  },
+  "data_kind": "synthetic simulation plus separately identified historical replay"
+}

@@ -1,0 +1,90 @@
+{
+  "verified_at": "2026-09-30T04:30:13.713429+00:00",
+  "runtime": {
+    "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+    "platform": "Linux-6.17.0-1020-aws-x86_64-with-glibc2.39",
+    "numpy": "2.5.2",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.1"
+  },
+  "independent_scenario_repetitions_per_cohort": 700,
+  "strategy_observations_per_cohort": 2100,
+  "note": "Three strategies share each repetition's outcome streams. Strategy rows are not independent experiments.",
+  "cohorts": {
+    "admission-001": {
+      "rows": 2100,
+      "false_accept": 0,
+      "false_reject": 0,
+      "paired_savings": [
+        {
+          "scenario": "sparse_harm",
+          "matched_correct_decisions": 100,
+          "uniform_median_pairs": 1810.0,
+          "adaptive_median_pairs": 385.0,
+          "median_paired_fraction_saved": 0.7535211267605634,
+          "exploratory_percentile_bootstrap_95": [
+            0.7463948030746208,
+            0.7659574468085106
+          ]
+        },
+        {
+          "scenario": "heterogeneous_harm",
+          "matched_correct_decisions": 100,
+          "uniform_median_pairs": 2830.0,
+          "adaptive_median_pairs": 925.0,
+          "median_paired_fraction_saved": 0.6773621596888584,
+          "exploratory_percentile_bootstrap_95": [
+            0.6749098599803794,
+            0.6830143540669857
+          ]
+        }
+      ]
+    },
+    "admission-002": {
+      "rows": 2100,
+      "false_accept": 0,
+      "false_reject": 0,
+      "paired_savings": [
+        {
+          "scenario": "sparse_harm",
+          "matched_correct_decisions": 100,
+          "uniform_median_pairs": 2015.0,
+          "adaptive_median_pairs": 470.0,
+          "median_paired_fraction_saved": 0.7677789012470508,
+          "exploratory_percentile_bootstrap_95": [
+            0.7553604868913857,
+            0.775503145333881
+          ]
+        },
+        {
+          "scenario": "heterogeneous_harm",
+          "matched_correct_decisions": 100,
+          "uniform_median_pairs": 3060.0,
+          "adaptive_median_pairs": 940.0,
+          "median_paired_fraction_saved": 0.6936794479920103,
+          "exploratory_percentile_bootstrap_95": [
+            0.6903914590747331,
+            0.6996240601503759
+          ]
+        }
+      ]
+    }
+  },
+  "skills": {
+    "controls": 42,
+    "passed": 24,
+    "model_trials": 0,
+    "native_client_trials": 0
+  },
+  "zero_errors_out_of_100_two_sided_exact_95_upper": 0.03621669264517641,
+  "historical_data_hashes_recorded_after_screen": {
+    "libero_10-steps2.jsonl": "f37b14ff78583c45342daa31322ddbbc5e24dc283840c13beac26ad4a5dc8568",
+    "libero_10-w4.jsonl": "4f4cd2a7cafc72f6c826fef61575288e4f48e2729be74a4685ea7808780d4eea",
+    "libero_10-w3-seed2000.jsonl": "a7aec23e38277cda3f826a60cdb8679ae22ba9d38fa666383779407986432926",
+    "libero_10-w3.jsonl": "5d1b1b26a33536994267878e8a0abc2d3e79bd29bcb0368db7f4050e656589d4",
+    "libero_10-fp32-seed2000.jsonl": "611f217e2e5d60485ded39b7d0dfcbf6880ec382fcd8c93a268938417742d577",
+    "libero_10-fp32-scene2000.jsonl": "c3b5e880736c93da20e53fb7e446af3b8dc55043b07d0d1d83afb64435427405",
+    "libero_10-fp32.jsonl": "1d469289eb28d7dd4adbe5b382c69e821b61c9b2b65a297c153ae93f22ed59ad",
+    "libero_10-bf16.jsonl": "9a68a6b96610b49eeaf284b54a915409cc40ca057515bfec8fc4983eca4f77f4"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "built_at": "2026-10-01T01:28:03.527449+00:00",
+  "scope": "Local anonymous methods-review revision, not a submission. Exact analytic figure adds no sampled outcomes.",
+  "pages": 6,
+  "body_pages": 5,
+  "reference_pages": 1,
+  "base_main_sha256": "f953ce64640a2c5ff9cdf59123c7edd228597d6f274e5b2d36595f961baa8061",
+  "analytic_facts_sha256": "a9cc94b69b58a86690b91950ffc1986d232f53ea3d49952a965c3c86aaa0f627",
+  "pdf_sha256": "cba3aa0e98bd12c19b0450b299fa38842ef179dd3b5c8fd42bad4df785dbd269",
+  "latex_warnings_absent": true,
+  "visual_review": "All six final rendered pages and analytic figure visually inspected; no clipping, overlap or missing content.",
+  "verified_at": "2026-10-01T01:28:50.463570+00:00",
+  "official_class_byte_identical": true,
+  "all_fonts_embedded": true,
+  "standalone_source_archive_clean_compile": true,
+  "clean_compile_text_identical": true,
+  "bibliography_entries": 10,
+  "figure_count": 1,
+  "table_count": 2,
+  "source_archive_sha256": "53d2bdfd85b8a0a575076e6dbbc2138026c4c350ffa55f0eb78bb5ba58aed824",
+  "source_sha256": {
+    "main.tex": "133452645d891e27cf229fe1f3a47286a6dc52a65af0b538a557bf81e81b5c09",
+    "main.bbl": "4d280b5a40c1dba6ac839bf4814f364caba64cc5e0d3540aeab20551d81e0b6d",
+    "references.bib": "af450fd985c25d058ad2fa2e1c3c5e73670f7f38f89ced9a7286e9f53c90acc2",
+    "IEEEtran.cls": "d63d4bf27f29603a733d06e27ba5fbb40488acf9d1d696354a88b886758f70a7",
+    "aggregate-identifiability.pdf": "ab0fae76257294b68caa37b47d347ca0ee5ed84f13a5ef4413045cf80e4faac0",
+    "README.md": "491dc26a1f66ad0c4f207c1dbda8aef036cfa3557b384c2e132dfc8ff5b74e07"
+  },
+  "builder_sha256": "820f04dcb2e5c96099a30953c807d72a3c61595998a2e2174d5e39cd51596902"
+}

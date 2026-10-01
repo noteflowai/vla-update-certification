@@ -1,0 +1,247 @@
+{
+  "checked_at": "2026-09-30T10:40:13.455594+00:00",
+  "models": [
+    {
+      "family": "pi05",
+      "revision": "8e174154ef5f6c60a8da12ae99c303d8963138c1",
+      "config_sha256": "2f6d4b96b032593e1de65b391ee7252a70227bff398ef1b94658fea17818142f",
+      "actual_flow_field": "num_inference_steps",
+      "configured_flow_steps": 10,
+      "chunk_size": 50,
+      "n_action_steps": 50,
+      "implementation_sha256": "8faec89af9d31f5c2f0e12b4ea369d2af6bf0c25050a13adcaefbd9b8aa03b69",
+      "rank2_weight_candidates_needing_partial_groups": [
+        {
+          "name": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.0.mlp.fc2.weight",
+          "shape": [
+            1152,
+            4304
+          ],
+          "final_group_width": 80
+        },
+        {
+          "name": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.1.mlp.fc2.weight",
+          "shape": [
+            1152,
+            4304
+          ],
+          "final_group_width": 80
+        },
+        {
+          "name": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.10.mlp.fc2.weight",
+          "shape": [
+            1152,
+            4304
+          ],
+          "final_group_width": 80
+        },
+        {
+          "name": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.11.mlp.fc2.weight",
+          "shape": [
+            1152,
+            4304
+          ],
+          "final_group_width": 80
+        },
+        {
+          "name": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.12.mlp.fc2.weight",
+          "shape": [
+            1152,
+            4304
+          ],
+          "final_group_width": 80
+        },
+        {
+          "name": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.13.mlp.fc2.weight",
+          "shape": [
+            1152,
+            4304
+          ],
+          "final_group_width": 80
+        },
+        {
+          "name": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.14.mlp.fc2.weight",
+          "shape": [
+            1152,
+            4304
+          ],
+          "final_group_width": 80
+        },
+        {
+          "name": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.15.mlp.fc2.weight",
+          "shape": [
+            1152,
+            4304
+          ],
+          "final_group_width": 80
+        },
+        {
+          "name": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.16.mlp.fc2.weight",
+          "shape": [
+            1152,
+            4304
+          ],
+          "final_group_width": 80
+        },
+        {
+          "name": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.17.mlp.fc2.weight",
+          "shape": [
+            1152,
+            4304
+          ],
+          "final_group_width": 80
+        },
+        {
+          "name": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.18.mlp.fc2.weight",
+          "shape": [
+            1152,
+            4304
+          ],
+          "final_group_width": 80
+        },
+        {
+          "name": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.19.mlp.fc2.weight",
+          "shape": [
+            1152,
+            4304
+          ],
+          "final_group_width": 80
+        },
+        {
+          "name": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.2.mlp.fc2.weight",
+          "shape": [
+            1152,
+            4304
+          ],
+          "final_group_width": 80
+        },
+        {
+          "name": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.20.mlp.fc2.weight",
+          "shape": [
+            1152,
+            4304
+          ],
+          "final_group_width": 80
+        },
+        {
+          "name": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.21.mlp.fc2.weight",
+          "shape": [
+            1152,
+            4304
+          ],
+          "final_group_width": 80
+        },
+        {
+          "name": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.22.mlp.fc2.weight",
+          "shape": [
+            1152,
+            4304
+          ],
+          "final_group_width": 80
+        },
+        {
+          "name": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.23.mlp.fc2.weight",
+          "shape": [
+            1152,
+            4304
+          ],
+          "final_group_width": 80
+        },
+        {
+          "name": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.24.mlp.fc2.weight",
+          "shape": [
+            1152,
+            4304
+          ],
+          "final_group_width": 80
+        },
+        {
+          "name": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.25.mlp.fc2.weight",
+          "shape": [
+            1152,
+            4304
+          ],
+          "final_group_width": 80
+        },
+        {
+          "name": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.26.mlp.fc2.weight",
+          "shape": [
+            1152,
+            4304
+          ],
+          "final_group_width": 80
+        },
+        {
+          "name": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.3.mlp.fc2.weight",
+          "shape": [
+            1152,
+            4304
+          ],
+          "final_group_width": 80
+        },
+        {
+          "name": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.4.mlp.fc2.weight",
+          "shape": [
+            1152,
+            4304
+          ],
+          "final_group_width": 80
+        },
+        {
+          "name": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.5.mlp.fc2.weight",
+          "shape": [
+            1152,
+            4304
+          ],
+          "final_group_width": 80
+        },
+        {
+          "name": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.6.mlp.fc2.weight",
+          "shape": [
+            1152,
+            4304
+          ],
+          "final_group_width": 80
+        },
+        {
+          "name": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.7.mlp.fc2.weight",
+          "shape": [
+            1152,
+            4304
+          ],
+          "final_group_width": 80
+        },
+        {
+          "name": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.8.mlp.fc2.weight",
+          "shape": [
+            1152,
+            4304
+          ],
+          "final_group_width": 80
+        },
+        {
+          "name": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.9.mlp.fc2.weight",
+          "shape": [
+            1152,
+            4304
+          ],
+          "final_group_width": 80
+        }
+      ],
+      "scope": "Header candidates include non-linear-module weights; this is not actual nn.Linear hook coverage."
+    },
+    {
+      "family": "xvla",
+      "revision": "12e8783e996944f5c97e490d37d4c145484ed70a",
+      "config_sha256": "db9ff1de61760910dcc5d355528346144d6a80687212c8600cf31207f0f5e010",
+      "actual_flow_field": "num_denoising_steps",
+      "configured_flow_steps": 10,
+      "chunk_size": 30,
+      "n_action_steps": 30,
+      "implementation_sha256": "be140ca28ff614d398280bd124fcdc9f44136d127e0d165b514151c3c5f9fef1",
+      "rank2_weight_candidates_needing_partial_groups": [],
+      "scope": "Header candidates include non-linear-module weights; this is not actual nn.Linear hook coverage."
+    }
+  ],
+  "new_update_outcomes": 0
+}

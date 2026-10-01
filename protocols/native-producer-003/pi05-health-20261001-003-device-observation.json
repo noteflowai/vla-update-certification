@@ -1,0 +1,15 @@
+{
+  "checked_at": "2026-10-01T01:19:16.674632+00:00",
+  "scope": "Current device observed after the PI05 health worker completed; no retroactive historical hardware claim.",
+  "device": {
+    "gpu_name": "NVIDIA L40S",
+    "gpu_uuid_sha256": "5298610a37604edae0dfb867d0e14bde0672c2752301d53035e7312c8a256e00",
+    "driver_version": "595.91.07",
+    "logical_cuda_device": 0
+  },
+  "worker_pid": 2970475,
+  "worker_pid_is_historical": true,
+  "worker_still_running_at_observation": false,
+  "worker_completed_at": "2026-10-01T01:18:38.834461+00:00",
+  "timing_note": "Observation timestamp is after the supervisor terminal receipt; the earlier live-run label was corrected."
+}

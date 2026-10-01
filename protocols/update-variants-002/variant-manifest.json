@@ -1,0 +1,14 @@
+{
+  "frozen_at": "2026-09-30T10:47:12.493742+00:00",
+  "supersedes": "update-variants-001",
+  "sources": {
+    "/home/dcvuser/work/research/second-paper-options-2026-09-30/experiments/update_variants.py": "ca442a328551bb8a630b21e5d850f4d1a3ef03485a82f9e9a49cf8bf570b8cba",
+    "/home/dcvuser/work/research/second-paper-options-2026-09-30/experiments/test_update_variants.py": "799e7c8bd88bd5ed9d59aa3a9a5caf271006b6c1976ae0df146424cb66bb7d96",
+    "/home/dcvuser/work/research/second-paper-options-2026-09-30/experiments/VARIANT_PROTOCOL_001.md": "c9b28c744afcac9e60dac347fa1ea4200cadb0fbfe406c781285573bc0e427dd",
+    "/home/dcvuser/work/research/second-paper-options-2026-09-30/analysis/update-variant-controls-002.log": "fb0a99a251f7b55e95cb477392051bc524ca6ed137c18f227dad49cbdfd1bf52",
+    "/home/dcvuser/work/research/second-paper-options-2026-09-30/analysis/pinned-update-configuration-001.json": "fe1050b0e68060067caba56e3f9a2e9785e8d1669a2c8cee9e7e25783c50c6d5"
+  },
+  "cpu_controls_passed": 7,
+  "model_update_outcomes": 0,
+  "scope": "Actual cached-family field contracts and CPU tensor controls with row-chunk equivalence. Not a complete native producer or GPU update validation."
+}

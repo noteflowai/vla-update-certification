@@ -1,0 +1,20 @@
+{
+  "started_at": "2026-09-30T04:59:22.777901+00:00",
+  "scope": "small development bound-comparison cohort",
+  "repetitions": 30,
+  "seed": 161803,
+  "states": 20,
+  "budget_pairs": 5000,
+  "alpha": 0.05,
+  "delta": 0.02,
+  "epsilon": 0.02,
+  "permuted_states": true,
+  "sources": {
+    "JOINT_PROTOCOL.md": "14441a96206330c717c62ea9e873ac91a5ce319b81b507e98c10b29161c4db41",
+    "admission.py": "dd3fa926087e61a6e41cbb3357b6d429ab4298a57723a5efacc00b044485f0da",
+    "joint_admission.py": "0eb3e58100b06fc3d6285360ee6e8882efbf8a3b1afeeafbf4432385b9df652e",
+    "run_admission.py": "cf89214ee38322d2af4a9e8c15a37f984d09f82375096373a61b32bab4db1aaa",
+    "run_joint_comparison.py": "9448979fbd1072c7ccb780a26a71a596d08ac0c375f8f7b7777ec9af63167468",
+    "test_joint_admission.py": "a09b6a9b0e5944d92be9500a6f058475151e57210f7ffcf7fe81c44919343ab2"
+  }
+}

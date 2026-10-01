@@ -1,0 +1,28 @@
+{
+  "frozen_at": "2026-09-30T06:47:41.134279+00:00",
+  "scope": "Prospective decision engine snapshot before any main update outcomes; not a physical collector or completed study.",
+  "sources": {
+    "closedloop_decisions.py": "f0dbbaf6c33a50ffd8db6d7076af30f639b53b5857323b50ea6855d18660e3a4",
+    "test_closedloop_decisions.py": "360d463600dd8fd2bba65d646490c507a89f4d820ea58b18320e13b0cd42a754",
+    "admission.py": "dd3fa926087e61a6e41cbb3357b6d429ab4298a57723a5efacc00b044485f0da",
+    "joint_admission.py": "0eb3e58100b06fc3d6285360ee6e8882efbf8a3b1afeeafbf4432385b9df652e",
+    "coarse_admission.py": "6be7d917265f2d50dbfd0869f96dd1092d7288cc27763312c834d624cff8f63d",
+    "run_admission.py": "cf89214ee38322d2af4a9e8c15a37f984d09f82375096373a61b32bab4db1aaa",
+    "NEXT_PHASE.md": "570e78c6d2bd57b7166c192f4d01e3fd4b7c4ba24c807fe1157eacf869f4f4de",
+    "METHOD.md": "28b7b9bbd428e6b598fb820d0164d0cef34b799cf0c73725fdb683daec37785c"
+  },
+  "states": 20,
+  "method_count": 6,
+  "update_count": 8,
+  "alpha_per_method_update": 0.0010416666666666667,
+  "delta": 0.02,
+  "epsilon": 0.02,
+  "pair_cap_per_method_update": 1000,
+  "batch_size": 10,
+  "passed_engine_controls_observed_this_turn": 5,
+  "physical_outcome_producer_implemented": false,
+  "main_update_outcomes": 0,
+  "main_suite_manifest_sha256": "aba81247fe986954712200f23cc707ee5ca91978a635fe9ec341b42e6b281f83",
+  "reference_pairs_per_state": 50,
+  "reference_separate_family_alpha": 0.05
+}

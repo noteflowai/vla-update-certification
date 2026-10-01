@@ -1,0 +1,14 @@
+[
+  {
+    "states": 20,
+    "equal_repeats": 304,
+    "pairs": 6080,
+    "scope": "Specific joint bound with zero observed discordance"
+  },
+  {
+    "states": 100,
+    "equal_repeats": 347,
+    "pairs": 34700,
+    "scope": "Specific joint bound with zero observed discordance"
+  }
+]

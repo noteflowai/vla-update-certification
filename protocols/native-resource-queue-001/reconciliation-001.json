@@ -1,0 +1,16 @@
+{
+  "checked_at": "2026-10-01T01:37:04.262041+00:00",
+  "original_cohort": "/home/dcvuser/work/research/second-paper-options-2026-09-30/runs/pi05-baseline-native-20261001-001",
+  "original_launch": "/home/dcvuser/work/research/second-paper-options-2026-09-30/runs/pi05-baseline-native-20261001-001/launches/20261001T013413447736Z",
+  "receipt_sha256": "8159ab1062d7a12886932ff6723ccd67d70dd46ef07270a7ef872549598d9cbc",
+  "summary_sha256": "8de1946a32e0a7edb2a66883fc50f7679cc761b1e23a8b92d60fc256f7faa855",
+  "classification": "Native provisioning resource guard stopped before model construction and before any episode. This is an infrastructure feasibility failure, not a policy failure.",
+  "episodes_started": 0,
+  "outcomes_collected": 0,
+  "worker_exit_code": 1,
+  "worker_reaped": true,
+  "wall_cost_seconds": 92.14497125893831,
+  "original_attempts_preserved": true,
+  "same_cohort_retry_allowed": false,
+  "next_action": "A separately recorded same-context retry may be queued before heavy imports with stricter 24 GiB host and three consecutive admission observations. Keep all seeds, states, source hashes, checkpoint assets and the original shared budget. No resource-threshold relaxation and no repeated model retry."
+}

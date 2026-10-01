@@ -1,0 +1,2531 @@
+[
+  {
+    "scenario": "unchanged_low_disagreement",
+    "strategy": "uniform",
+    "pairs": 10,
+    "lower": 0.0,
+    "upper": 0.9584592475672982,
+    "true_loss": 0.0,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "unchanged_low_disagreement",
+    "strategy": "uniform",
+    "pairs": 210,
+    "lower": 0.0,
+    "upper": 0.5384611765802038,
+    "true_loss": 0.0,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "unchanged_low_disagreement",
+    "strategy": "uniform",
+    "pairs": 410,
+    "lower": 0.0,
+    "upper": 0.3454089104794913,
+    "true_loss": 0.0,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "unchanged_low_disagreement",
+    "strategy": "uniform",
+    "pairs": 610,
+    "lower": 0.0,
+    "upper": 0.2543444832664924,
+    "true_loss": 0.0,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "unchanged_low_disagreement",
+    "strategy": "uniform",
+    "pairs": 810,
+    "lower": 0.0,
+    "upper": 0.19704494856215662,
+    "true_loss": 0.0,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "unchanged_low_disagreement",
+    "strategy": "uniform",
+    "pairs": 1010,
+    "lower": 0.0,
+    "upper": 0.15985983791035988,
+    "true_loss": 0.0,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "unchanged_low_disagreement",
+    "strategy": "uniform",
+    "pairs": 1210,
+    "lower": 0.0,
+    "upper": 0.139614591762539,
+    "true_loss": 0.0,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "unchanged_low_disagreement",
+    "strategy": "uniform",
+    "pairs": 1410,
+    "lower": 0.0,
+    "upper": 0.11957584759165489,
+    "true_loss": 0.0,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "unchanged_low_disagreement",
+    "strategy": "uniform",
+    "pairs": 1610,
+    "lower": 0.0,
+    "upper": 0.1072650991368308,
+    "true_loss": 0.0,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "unchanged_low_disagreement",
+    "strategy": "uniform",
+    "pairs": 1810,
+    "lower": 0.0,
+    "upper": 0.09462567431680305,
+    "true_loss": 0.0,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "unchanged_low_disagreement",
+    "strategy": "uniform",
+    "pairs": 2010,
+    "lower": 0.0,
+    "upper": 0.0843153755779865,
+    "true_loss": 0.0,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "unchanged_low_disagreement",
+    "strategy": "uniform",
+    "pairs": 2210,
+    "lower": 0.0,
+    "upper": 0.07573778773324742,
+    "true_loss": 0.0,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "unchanged_low_disagreement",
+    "strategy": "uniform",
+    "pairs": 2410,
+    "lower": 0.0,
+    "upper": 0.06849277530498465,
+    "true_loss": 0.0,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "unchanged_low_disagreement",
+    "strategy": "uniform",
+    "pairs": 2610,
+    "lower": 0.0,
+    "upper": 0.06228806074648982,
+    "true_loss": 0.0,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "unchanged_low_disagreement",
+    "strategy": "uniform",
+    "pairs": 2810,
+    "lower": 0.0,
+    "upper": 0.05691319446594268,
+    "true_loss": 0.0,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "unchanged_low_disagreement",
+    "strategy": "uniform",
+    "pairs": 3010,
+    "lower": 0.0,
+    "upper": 0.05221110128036176,
+    "true_loss": 0.0,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "unchanged_low_disagreement",
+    "strategy": "uniform",
+    "pairs": 3210,
+    "lower": 0.0,
+    "upper": 0.04804903681612164,
+    "true_loss": 0.0,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "unchanged_low_disagreement",
+    "strategy": "uniform",
+    "pairs": 3410,
+    "lower": 0.0,
+    "upper": 0.046757104060565775,
+    "true_loss": 0.0,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "unchanged_low_disagreement",
+    "strategy": "uniform",
+    "pairs": 3610,
+    "lower": 0.0,
+    "upper": 0.04333351978480701,
+    "true_loss": 0.0,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "unchanged_low_disagreement",
+    "strategy": "uniform",
+    "pairs": 3810,
+    "lower": 0.0,
+    "upper": 0.04025079181897759,
+    "true_loss": 0.0,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "unchanged_low_disagreement",
+    "strategy": "uniform",
+    "pairs": 4010,
+    "lower": 0.0,
+    "upper": 0.03746010143318206,
+    "true_loss": 0.0,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "unchanged_low_disagreement",
+    "strategy": "uniform",
+    "pairs": 4210,
+    "lower": 0.0,
+    "upper": 0.03566632902624346,
+    "true_loss": 0.0,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "unchanged_low_disagreement",
+    "strategy": "uniform",
+    "pairs": 4410,
+    "lower": 0.0,
+    "upper": 0.03386142160580243,
+    "true_loss": 0.0,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "unchanged_low_disagreement",
+    "strategy": "uniform",
+    "pairs": 4610,
+    "lower": 0.0,
+    "upper": 0.03167965120266425,
+    "true_loss": 0.0,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "unchanged_low_disagreement",
+    "strategy": "uniform",
+    "pairs": 4810,
+    "lower": 0.0,
+    "upper": 0.03017689042643508,
+    "true_loss": 0.0,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "unchanged_low_disagreement",
+    "strategy": "adaptive",
+    "pairs": 10,
+    "lower": 0.0,
+    "upper": 0.9584592475672982,
+    "true_loss": 0.0,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "unchanged_low_disagreement",
+    "strategy": "adaptive",
+    "pairs": 210,
+    "lower": 0.0,
+    "upper": 0.5384611765802038,
+    "true_loss": 0.0,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "unchanged_low_disagreement",
+    "strategy": "adaptive",
+    "pairs": 410,
+    "lower": 0.0,
+    "upper": 0.3442133767104437,
+    "true_loss": 0.0,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "unchanged_low_disagreement",
+    "strategy": "adaptive",
+    "pairs": 610,
+    "lower": 0.0,
+    "upper": 0.25304358670033555,
+    "true_loss": 0.0,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "unchanged_low_disagreement",
+    "strategy": "adaptive",
+    "pairs": 810,
+    "lower": 0.0,
+    "upper": 0.1983373567640301,
+    "true_loss": 0.0,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "unchanged_low_disagreement",
+    "strategy": "adaptive",
+    "pairs": 1010,
+    "lower": 0.0,
+    "upper": 0.16001928076256527,
+    "true_loss": 0.0,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "unchanged_low_disagreement",
+    "strategy": "adaptive",
+    "pairs": 1210,
+    "lower": 0.0,
+    "upper": 0.13386676157960944,
+    "true_loss": 0.0,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "unchanged_low_disagreement",
+    "strategy": "adaptive",
+    "pairs": 1410,
+    "lower": 0.0,
+    "upper": 0.11834864642221046,
+    "true_loss": 0.0,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "unchanged_low_disagreement",
+    "strategy": "adaptive",
+    "pairs": 1610,
+    "lower": 0.0,
+    "upper": 0.10564342729264234,
+    "true_loss": 0.0,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "unchanged_low_disagreement",
+    "strategy": "adaptive",
+    "pairs": 1810,
+    "lower": 0.0,
+    "upper": 0.09435963037123156,
+    "true_loss": 0.0,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "unchanged_low_disagreement",
+    "strategy": "adaptive",
+    "pairs": 2010,
+    "lower": 0.0,
+    "upper": 0.08426470551888068,
+    "true_loss": 0.0,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "unchanged_low_disagreement",
+    "strategy": "adaptive",
+    "pairs": 2210,
+    "lower": 0.0,
+    "upper": 0.07587197403520551,
+    "true_loss": 0.0,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "unchanged_low_disagreement",
+    "strategy": "adaptive",
+    "pairs": 2410,
+    "lower": 0.0,
+    "upper": 0.06877135623837073,
+    "true_loss": 0.0,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "unchanged_low_disagreement",
+    "strategy": "adaptive",
+    "pairs": 2610,
+    "lower": 0.0,
+    "upper": 0.06334129353753862,
+    "true_loss": 0.0,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "unchanged_low_disagreement",
+    "strategy": "adaptive",
+    "pairs": 2810,
+    "lower": 0.0,
+    "upper": 0.05767790635838604,
+    "true_loss": 0.0,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "unchanged_low_disagreement",
+    "strategy": "adaptive",
+    "pairs": 3010,
+    "lower": 0.0,
+    "upper": 0.05276994779084744,
+    "true_loss": 0.0,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "unchanged_low_disagreement",
+    "strategy": "adaptive",
+    "pairs": 3210,
+    "lower": 0.0,
+    "upper": 0.04865080898005268,
+    "true_loss": 0.0,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "unchanged_low_disagreement",
+    "strategy": "adaptive",
+    "pairs": 3410,
+    "lower": 0.0,
+    "upper": 0.04490511037811422,
+    "true_loss": 0.0,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "unchanged_low_disagreement",
+    "strategy": "adaptive",
+    "pairs": 3610,
+    "lower": 0.0,
+    "upper": 0.04183916957635071,
+    "true_loss": 0.0,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "unchanged_low_disagreement",
+    "strategy": "adaptive",
+    "pairs": 3810,
+    "lower": 0.0,
+    "upper": 0.038690649544424624,
+    "true_loss": 0.0,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "unchanged_low_disagreement",
+    "strategy": "adaptive",
+    "pairs": 4010,
+    "lower": 0.0,
+    "upper": 0.03736740774821751,
+    "true_loss": 0.0,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "unchanged_low_disagreement",
+    "strategy": "adaptive",
+    "pairs": 4210,
+    "lower": 0.0,
+    "upper": 0.03486940772179111,
+    "true_loss": 0.0,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "unchanged_low_disagreement",
+    "strategy": "adaptive",
+    "pairs": 4410,
+    "lower": 0.0,
+    "upper": 0.03322617447105222,
+    "true_loss": 0.0,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "unchanged_low_disagreement",
+    "strategy": "adaptive",
+    "pairs": 4610,
+    "lower": 0.0,
+    "upper": 0.03150146226853947,
+    "true_loss": 0.0,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "unchanged_low_disagreement",
+    "strategy": "adaptive",
+    "pairs": 4810,
+    "lower": 0.0,
+    "upper": 0.029474418128993148,
+    "true_loss": 0.0,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "improved",
+    "strategy": "uniform",
+    "pairs": 10,
+    "lower": 0.0,
+    "upper": 0.9583873218085867,
+    "true_loss": 0.0,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "improved",
+    "strategy": "uniform",
+    "pairs": 210,
+    "lower": 0.0,
+    "upper": 0.5384266924531947,
+    "true_loss": 0.0,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "improved",
+    "strategy": "uniform",
+    "pairs": 410,
+    "lower": 0.0,
+    "upper": 0.338202339473628,
+    "true_loss": 0.0,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "improved",
+    "strategy": "uniform",
+    "pairs": 610,
+    "lower": 0.0,
+    "upper": 0.24173293411653962,
+    "true_loss": 0.0,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "improved",
+    "strategy": "uniform",
+    "pairs": 810,
+    "lower": 0.0,
+    "upper": 0.18655136457976274,
+    "true_loss": 0.0,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "improved",
+    "strategy": "uniform",
+    "pairs": 1010,
+    "lower": 0.0,
+    "upper": 0.15051593988461415,
+    "true_loss": 0.0,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "improved",
+    "strategy": "uniform",
+    "pairs": 1210,
+    "lower": 0.0,
+    "upper": 0.12888240195215597,
+    "true_loss": 0.0,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "improved",
+    "strategy": "uniform",
+    "pairs": 1410,
+    "lower": 0.0,
+    "upper": 0.1087782315145598,
+    "true_loss": 0.0,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "improved",
+    "strategy": "uniform",
+    "pairs": 1610,
+    "lower": 0.0,
+    "upper": 0.09333637989388967,
+    "true_loss": 0.0,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "improved",
+    "strategy": "uniform",
+    "pairs": 1810,
+    "lower": 0.0,
+    "upper": 0.08155303735862979,
+    "true_loss": 0.0,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "improved",
+    "strategy": "uniform",
+    "pairs": 2010,
+    "lower": 0.0,
+    "upper": 0.07204660739489538,
+    "true_loss": 0.0,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "improved",
+    "strategy": "uniform",
+    "pairs": 2210,
+    "lower": 0.0,
+    "upper": 0.06792336339532415,
+    "true_loss": 0.0,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "improved",
+    "strategy": "uniform",
+    "pairs": 2410,
+    "lower": 0.0,
+    "upper": 0.06263085580812865,
+    "true_loss": 0.0,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "improved",
+    "strategy": "uniform",
+    "pairs": 2610,
+    "lower": 0.0,
+    "upper": 0.05709083154883855,
+    "true_loss": 0.0,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "improved",
+    "strategy": "uniform",
+    "pairs": 2810,
+    "lower": 0.0,
+    "upper": 0.05235167686081201,
+    "true_loss": 0.0,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "improved",
+    "strategy": "uniform",
+    "pairs": 3010,
+    "lower": 0.0,
+    "upper": 0.04793213597312553,
+    "true_loss": 0.0,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "improved",
+    "strategy": "uniform",
+    "pairs": 3210,
+    "lower": 0.0,
+    "upper": 0.04352266123487605,
+    "true_loss": 0.0,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "improved",
+    "strategy": "uniform",
+    "pairs": 3410,
+    "lower": 0.0,
+    "upper": 0.03920846493431227,
+    "true_loss": 0.0,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "improved",
+    "strategy": "uniform",
+    "pairs": 3610,
+    "lower": 0.0,
+    "upper": 0.036529113364636275,
+    "true_loss": 0.0,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "improved",
+    "strategy": "uniform",
+    "pairs": 3810,
+    "lower": 0.0,
+    "upper": 0.03257442347809234,
+    "true_loss": 0.0,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "improved",
+    "strategy": "uniform",
+    "pairs": 4010,
+    "lower": 0.0,
+    "upper": 0.029413659965511974,
+    "true_loss": 0.0,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "improved",
+    "strategy": "uniform",
+    "pairs": 4210,
+    "lower": 0.0,
+    "upper": 0.026480812696993133,
+    "true_loss": 0.0,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "improved",
+    "strategy": "uniform",
+    "pairs": 4410,
+    "lower": 0.0,
+    "upper": 0.023329295117578214,
+    "true_loss": 0.0,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "improved",
+    "strategy": "uniform",
+    "pairs": 4610,
+    "lower": 0.0,
+    "upper": 0.020500593314575224,
+    "true_loss": 0.0,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "improved",
+    "strategy": "uniform",
+    "pairs": 4660,
+    "lower": 0.0,
+    "upper": 0.01979114827618454,
+    "true_loss": 0.0,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "improved",
+    "strategy": "adaptive",
+    "pairs": 10,
+    "lower": 0.0,
+    "upper": 0.9583873218085867,
+    "true_loss": 0.0,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "improved",
+    "strategy": "adaptive",
+    "pairs": 210,
+    "lower": 0.0,
+    "upper": 0.5383834542612385,
+    "true_loss": 0.0,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "improved",
+    "strategy": "adaptive",
+    "pairs": 410,
+    "lower": 0.0,
+    "upper": 0.3329994842835004,
+    "true_loss": 0.0,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "improved",
+    "strategy": "adaptive",
+    "pairs": 610,
+    "lower": 0.0,
+    "upper": 0.24173293411653962,
+    "true_loss": 0.0,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "improved",
+    "strategy": "adaptive",
+    "pairs": 810,
+    "lower": 0.0,
+    "upper": 0.18691003049247346,
+    "true_loss": 0.0,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "improved",
+    "strategy": "adaptive",
+    "pairs": 1010,
+    "lower": 0.0,
+    "upper": 0.1505766302733276,
+    "true_loss": 0.0,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "improved",
+    "strategy": "adaptive",
+    "pairs": 1210,
+    "lower": 0.0,
+    "upper": 0.129869129971235,
+    "true_loss": 0.0,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "improved",
+    "strategy": "adaptive",
+    "pairs": 1410,
+    "lower": 0.0,
+    "upper": 0.10964940865814528,
+    "true_loss": 0.0,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "improved",
+    "strategy": "adaptive",
+    "pairs": 1610,
+    "lower": 0.0,
+    "upper": 0.09359363589545137,
+    "true_loss": 0.0,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "improved",
+    "strategy": "adaptive",
+    "pairs": 1810,
+    "lower": 0.0,
+    "upper": 0.08115083307766344,
+    "true_loss": 0.0,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "improved",
+    "strategy": "adaptive",
+    "pairs": 2010,
+    "lower": 0.0,
+    "upper": 0.07255300004899358,
+    "true_loss": 0.0,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "improved",
+    "strategy": "adaptive",
+    "pairs": 2210,
+    "lower": 0.0,
+    "upper": 0.06532869046262048,
+    "true_loss": 0.0,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "improved",
+    "strategy": "adaptive",
+    "pairs": 2410,
+    "lower": 0.0,
+    "upper": 0.0608329854177792,
+    "true_loss": 0.0,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "improved",
+    "strategy": "adaptive",
+    "pairs": 2610,
+    "lower": 0.0,
+    "upper": 0.05596974960722084,
+    "true_loss": 0.0,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "improved",
+    "strategy": "adaptive",
+    "pairs": 2810,
+    "lower": 0.0,
+    "upper": 0.049386798358533365,
+    "true_loss": 0.0,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "improved",
+    "strategy": "adaptive",
+    "pairs": 3010,
+    "lower": 0.0,
+    "upper": 0.0449758282058362,
+    "true_loss": 0.0,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "improved",
+    "strategy": "adaptive",
+    "pairs": 3210,
+    "lower": 0.0,
+    "upper": 0.04264507907302127,
+    "true_loss": 0.0,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "improved",
+    "strategy": "adaptive",
+    "pairs": 3410,
+    "lower": 0.0,
+    "upper": 0.03812294955495367,
+    "true_loss": 0.0,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "improved",
+    "strategy": "adaptive",
+    "pairs": 3610,
+    "lower": 0.0,
+    "upper": 0.034125393898369764,
+    "true_loss": 0.0,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "improved",
+    "strategy": "adaptive",
+    "pairs": 3810,
+    "lower": 0.0,
+    "upper": 0.03185698268347814,
+    "true_loss": 0.0,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "improved",
+    "strategy": "adaptive",
+    "pairs": 4010,
+    "lower": 0.0,
+    "upper": 0.028604471564795675,
+    "true_loss": 0.0,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "improved",
+    "strategy": "adaptive",
+    "pairs": 4210,
+    "lower": 0.0,
+    "upper": 0.026193223770611514,
+    "true_loss": 0.0,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "improved",
+    "strategy": "adaptive",
+    "pairs": 4410,
+    "lower": 0.0,
+    "upper": 0.02376240057018515,
+    "true_loss": 0.0,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "improved",
+    "strategy": "adaptive",
+    "pairs": 4610,
+    "lower": 0.0,
+    "upper": 0.02201571345121982,
+    "true_loss": 0.0,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "improved",
+    "strategy": "adaptive",
+    "pairs": 4810,
+    "lower": 0.0,
+    "upper": 0.019866808865072853,
+    "true_loss": 0.0,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "diffuse_harm",
+    "strategy": "uniform",
+    "pairs": 10,
+    "lower": 0.0,
+    "upper": 0.9696992118060008,
+    "true_loss": 0.05499999999999998,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "diffuse_harm",
+    "strategy": "uniform",
+    "pairs": 210,
+    "lower": 0.0,
+    "upper": 0.6828993571413048,
+    "true_loss": 0.05499999999999998,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "diffuse_harm",
+    "strategy": "uniform",
+    "pairs": 410,
+    "lower": 0.0,
+    "upper": 0.483899018903015,
+    "true_loss": 0.05499999999999998,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "diffuse_harm",
+    "strategy": "uniform",
+    "pairs": 610,
+    "lower": 0.0,
+    "upper": 0.4127247553175372,
+    "true_loss": 0.05499999999999998,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "diffuse_harm",
+    "strategy": "uniform",
+    "pairs": 810,
+    "lower": 0.0,
+    "upper": 0.35869242834453685,
+    "true_loss": 0.05499999999999998,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "diffuse_harm",
+    "strategy": "uniform",
+    "pairs": 1010,
+    "lower": 0.0,
+    "upper": 0.32578552842993785,
+    "true_loss": 0.05499999999999998,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "diffuse_harm",
+    "strategy": "uniform",
+    "pairs": 1210,
+    "lower": 0.0,
+    "upper": 0.29530617534560544,
+    "true_loss": 0.05499999999999998,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "diffuse_harm",
+    "strategy": "uniform",
+    "pairs": 1410,
+    "lower": 0.0,
+    "upper": 0.2714799568665123,
+    "true_loss": 0.05499999999999998,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "diffuse_harm",
+    "strategy": "uniform",
+    "pairs": 1610,
+    "lower": 0.0,
+    "upper": 0.251054217621312,
+    "true_loss": 0.05499999999999998,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "diffuse_harm",
+    "strategy": "uniform",
+    "pairs": 1810,
+    "lower": 0.0,
+    "upper": 0.23939890995440935,
+    "true_loss": 0.05499999999999998,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "diffuse_harm",
+    "strategy": "uniform",
+    "pairs": 2010,
+    "lower": 0.0,
+    "upper": 0.22818920313253746,
+    "true_loss": 0.05499999999999998,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "diffuse_harm",
+    "strategy": "uniform",
+    "pairs": 2210,
+    "lower": 0.0,
+    "upper": 0.21868069772102905,
+    "true_loss": 0.05499999999999998,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "diffuse_harm",
+    "strategy": "uniform",
+    "pairs": 2410,
+    "lower": 0.0,
+    "upper": 0.20720807854282974,
+    "true_loss": 0.05499999999999998,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "diffuse_harm",
+    "strategy": "uniform",
+    "pairs": 2610,
+    "lower": 0.0,
+    "upper": 0.19989736765145996,
+    "true_loss": 0.05499999999999998,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "diffuse_harm",
+    "strategy": "uniform",
+    "pairs": 2810,
+    "lower": 0.0,
+    "upper": 0.1990397664729557,
+    "true_loss": 0.05499999999999998,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "diffuse_harm",
+    "strategy": "uniform",
+    "pairs": 3010,
+    "lower": 0.0,
+    "upper": 0.1935465282090128,
+    "true_loss": 0.05499999999999998,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "diffuse_harm",
+    "strategy": "uniform",
+    "pairs": 3210,
+    "lower": 0.0,
+    "upper": 0.1901114402720372,
+    "true_loss": 0.05499999999999998,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "diffuse_harm",
+    "strategy": "uniform",
+    "pairs": 3410,
+    "lower": 0.0,
+    "upper": 0.18467576260026683,
+    "true_loss": 0.05499999999999998,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "diffuse_harm",
+    "strategy": "uniform",
+    "pairs": 3610,
+    "lower": 0.0,
+    "upper": 0.18173135579473984,
+    "true_loss": 0.05499999999999998,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "diffuse_harm",
+    "strategy": "uniform",
+    "pairs": 3810,
+    "lower": 0.0,
+    "upper": 0.17750981264173965,
+    "true_loss": 0.05499999999999998,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "diffuse_harm",
+    "strategy": "uniform",
+    "pairs": 4010,
+    "lower": 0.0,
+    "upper": 0.17121530822001588,
+    "true_loss": 0.05499999999999998,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "diffuse_harm",
+    "strategy": "uniform",
+    "pairs": 4210,
+    "lower": 0.0,
+    "upper": 0.1683901025234263,
+    "true_loss": 0.05499999999999998,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "diffuse_harm",
+    "strategy": "uniform",
+    "pairs": 4410,
+    "lower": 0.0,
+    "upper": 0.1652627453603849,
+    "true_loss": 0.05499999999999998,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "diffuse_harm",
+    "strategy": "uniform",
+    "pairs": 4610,
+    "lower": 0.0,
+    "upper": 0.1634980217300116,
+    "true_loss": 0.05499999999999998,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "diffuse_harm",
+    "strategy": "uniform",
+    "pairs": 4810,
+    "lower": 0.0,
+    "upper": 0.1609245766437682,
+    "true_loss": 0.05499999999999998,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "diffuse_harm",
+    "strategy": "adaptive",
+    "pairs": 10,
+    "lower": 0.0,
+    "upper": 0.9696992118060008,
+    "true_loss": 0.05499999999999998,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "diffuse_harm",
+    "strategy": "adaptive",
+    "pairs": 210,
+    "lower": 0.0,
+    "upper": 0.6827009141676081,
+    "true_loss": 0.05499999999999998,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "diffuse_harm",
+    "strategy": "adaptive",
+    "pairs": 410,
+    "lower": 0.0,
+    "upper": 0.49913184650058917,
+    "true_loss": 0.05499999999999998,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "diffuse_harm",
+    "strategy": "adaptive",
+    "pairs": 610,
+    "lower": 0.0,
+    "upper": 0.39021508525642246,
+    "true_loss": 0.05499999999999998,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "diffuse_harm",
+    "strategy": "adaptive",
+    "pairs": 810,
+    "lower": 0.0,
+    "upper": 0.34807868494988337,
+    "true_loss": 0.05499999999999998,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "diffuse_harm",
+    "strategy": "adaptive",
+    "pairs": 1010,
+    "lower": 0.0,
+    "upper": 0.31549485604125715,
+    "true_loss": 0.05499999999999998,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "diffuse_harm",
+    "strategy": "adaptive",
+    "pairs": 1210,
+    "lower": 0.0,
+    "upper": 0.29094470413609796,
+    "true_loss": 0.05499999999999998,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "diffuse_harm",
+    "strategy": "adaptive",
+    "pairs": 1410,
+    "lower": 0.0,
+    "upper": 0.2728766498690296,
+    "true_loss": 0.05499999999999998,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "diffuse_harm",
+    "strategy": "adaptive",
+    "pairs": 1610,
+    "lower": 0.0,
+    "upper": 0.2529521158528672,
+    "true_loss": 0.05499999999999998,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "diffuse_harm",
+    "strategy": "adaptive",
+    "pairs": 1810,
+    "lower": 0.0,
+    "upper": 0.24315469547914786,
+    "true_loss": 0.05499999999999998,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "diffuse_harm",
+    "strategy": "adaptive",
+    "pairs": 2010,
+    "lower": 0.0,
+    "upper": 0.2276683049544225,
+    "true_loss": 0.05499999999999998,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "diffuse_harm",
+    "strategy": "adaptive",
+    "pairs": 2210,
+    "lower": 0.0,
+    "upper": 0.21439159473921546,
+    "true_loss": 0.05499999999999998,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "diffuse_harm",
+    "strategy": "adaptive",
+    "pairs": 2410,
+    "lower": 0.0,
+    "upper": 0.20831215425885982,
+    "true_loss": 0.05499999999999998,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "diffuse_harm",
+    "strategy": "adaptive",
+    "pairs": 2610,
+    "lower": 0.0,
+    "upper": 0.2023328902071646,
+    "true_loss": 0.05499999999999998,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "diffuse_harm",
+    "strategy": "adaptive",
+    "pairs": 2810,
+    "lower": 0.0,
+    "upper": 0.19708714780894118,
+    "true_loss": 0.05499999999999998,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "diffuse_harm",
+    "strategy": "adaptive",
+    "pairs": 3010,
+    "lower": 0.0,
+    "upper": 0.19071597517375813,
+    "true_loss": 0.05499999999999998,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "diffuse_harm",
+    "strategy": "adaptive",
+    "pairs": 3210,
+    "lower": 0.0,
+    "upper": 0.1857708409790091,
+    "true_loss": 0.05499999999999998,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "diffuse_harm",
+    "strategy": "adaptive",
+    "pairs": 3410,
+    "lower": 0.00011666148419317378,
+    "upper": 0.17964006897560517,
+    "true_loss": 0.05499999999999998,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "diffuse_harm",
+    "strategy": "adaptive",
+    "pairs": 3610,
+    "lower": 0.0001363106679304371,
+    "upper": 0.174099079916696,
+    "true_loss": 0.05499999999999998,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "diffuse_harm",
+    "strategy": "adaptive",
+    "pairs": 3810,
+    "lower": 9.840783694077555e-05,
+    "upper": 0.16916978116328385,
+    "true_loss": 0.05499999999999998,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "diffuse_harm",
+    "strategy": "adaptive",
+    "pairs": 4010,
+    "lower": 9.840783694077555e-05,
+    "upper": 0.16933915449251807,
+    "true_loss": 0.05499999999999998,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "diffuse_harm",
+    "strategy": "adaptive",
+    "pairs": 4210,
+    "lower": 0.0001549521175077869,
+    "upper": 0.16629153817506967,
+    "true_loss": 0.05499999999999998,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "diffuse_harm",
+    "strategy": "adaptive",
+    "pairs": 4410,
+    "lower": 0.00017265372770093655,
+    "upper": 0.16236980294554326,
+    "true_loss": 0.05499999999999998,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "diffuse_harm",
+    "strategy": "adaptive",
+    "pairs": 4610,
+    "lower": 0.0001382184618391876,
+    "upper": 0.15941977020451692,
+    "true_loss": 0.05499999999999998,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "diffuse_harm",
+    "strategy": "adaptive",
+    "pairs": 4810,
+    "lower": 0.0001382184618391876,
+    "upper": 0.15833468315493127,
+    "true_loss": 0.05499999999999998,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "just_inside_budget",
+    "strategy": "uniform",
+    "pairs": 10,
+    "lower": 0.0,
+    "upper": 0.9584592475672982,
+    "true_loss": 0.019000000000000003,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "just_inside_budget",
+    "strategy": "uniform",
+    "pairs": 210,
+    "lower": 0.0,
+    "upper": 0.6047149083097975,
+    "true_loss": 0.019000000000000003,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "just_inside_budget",
+    "strategy": "uniform",
+    "pairs": 410,
+    "lower": 0.0,
+    "upper": 0.40619071158845454,
+    "true_loss": 0.019000000000000003,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "just_inside_budget",
+    "strategy": "uniform",
+    "pairs": 610,
+    "lower": 0.0,
+    "upper": 0.30993262662940196,
+    "true_loss": 0.019000000000000003,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "just_inside_budget",
+    "strategy": "uniform",
+    "pairs": 810,
+    "lower": 0.0,
+    "upper": 0.26849767936868835,
+    "true_loss": 0.019000000000000003,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "just_inside_budget",
+    "strategy": "uniform",
+    "pairs": 1010,
+    "lower": 0.0,
+    "upper": 0.24247822182578116,
+    "true_loss": 0.019000000000000003,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "just_inside_budget",
+    "strategy": "uniform",
+    "pairs": 1210,
+    "lower": 0.0,
+    "upper": 0.2129034920698871,
+    "true_loss": 0.019000000000000003,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "just_inside_budget",
+    "strategy": "uniform",
+    "pairs": 1410,
+    "lower": 0.0,
+    "upper": 0.2038074473677534,
+    "true_loss": 0.019000000000000003,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "just_inside_budget",
+    "strategy": "uniform",
+    "pairs": 1610,
+    "lower": 0.0,
+    "upper": 0.18573612728651545,
+    "true_loss": 0.019000000000000003,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "just_inside_budget",
+    "strategy": "uniform",
+    "pairs": 1810,
+    "lower": 0.0,
+    "upper": 0.17144772473139447,
+    "true_loss": 0.019000000000000003,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "just_inside_budget",
+    "strategy": "uniform",
+    "pairs": 2010,
+    "lower": 0.0,
+    "upper": 0.15985642193565058,
+    "true_loss": 0.019000000000000003,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "just_inside_budget",
+    "strategy": "uniform",
+    "pairs": 2210,
+    "lower": 0.0,
+    "upper": 0.15301404006035393,
+    "true_loss": 0.019000000000000003,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "just_inside_budget",
+    "strategy": "uniform",
+    "pairs": 2410,
+    "lower": 0.0,
+    "upper": 0.14454692776970207,
+    "true_loss": 0.019000000000000003,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "just_inside_budget",
+    "strategy": "uniform",
+    "pairs": 2610,
+    "lower": 0.0,
+    "upper": 0.13788914840171995,
+    "true_loss": 0.019000000000000003,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "just_inside_budget",
+    "strategy": "uniform",
+    "pairs": 2810,
+    "lower": 0.0,
+    "upper": 0.1335731122684454,
+    "true_loss": 0.019000000000000003,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "just_inside_budget",
+    "strategy": "uniform",
+    "pairs": 3010,
+    "lower": 0.0,
+    "upper": 0.12754340863662214,
+    "true_loss": 0.019000000000000003,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "just_inside_budget",
+    "strategy": "uniform",
+    "pairs": 3210,
+    "lower": 0.0,
+    "upper": 0.12761129068785027,
+    "true_loss": 0.019000000000000003,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "just_inside_budget",
+    "strategy": "uniform",
+    "pairs": 3410,
+    "lower": 0.0,
+    "upper": 0.12438995376395061,
+    "true_loss": 0.019000000000000003,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "just_inside_budget",
+    "strategy": "uniform",
+    "pairs": 3610,
+    "lower": 0.0,
+    "upper": 0.12111524106005363,
+    "true_loss": 0.019000000000000003,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "just_inside_budget",
+    "strategy": "uniform",
+    "pairs": 3810,
+    "lower": 0.0,
+    "upper": 0.11714675525726197,
+    "true_loss": 0.019000000000000003,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "just_inside_budget",
+    "strategy": "uniform",
+    "pairs": 4010,
+    "lower": 0.0,
+    "upper": 0.11320523895290138,
+    "true_loss": 0.019000000000000003,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "just_inside_budget",
+    "strategy": "uniform",
+    "pairs": 4210,
+    "lower": 0.0,
+    "upper": 0.1092239987701419,
+    "true_loss": 0.019000000000000003,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "just_inside_budget",
+    "strategy": "uniform",
+    "pairs": 4410,
+    "lower": 0.0,
+    "upper": 0.10991043601108846,
+    "true_loss": 0.019000000000000003,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "just_inside_budget",
+    "strategy": "uniform",
+    "pairs": 4610,
+    "lower": 0.0,
+    "upper": 0.10726451781371468,
+    "true_loss": 0.019000000000000003,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "just_inside_budget",
+    "strategy": "uniform",
+    "pairs": 4810,
+    "lower": 0.0,
+    "upper": 0.10684042165328868,
+    "true_loss": 0.019000000000000003,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "just_inside_budget",
+    "strategy": "adaptive",
+    "pairs": 10,
+    "lower": 0.0,
+    "upper": 0.9584592475672982,
+    "true_loss": 0.019000000000000003,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "just_inside_budget",
+    "strategy": "adaptive",
+    "pairs": 210,
+    "lower": 0.0,
+    "upper": 0.5971760069855554,
+    "true_loss": 0.019000000000000003,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "just_inside_budget",
+    "strategy": "adaptive",
+    "pairs": 410,
+    "lower": 0.0,
+    "upper": 0.4064233051801967,
+    "true_loss": 0.019000000000000003,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "just_inside_budget",
+    "strategy": "adaptive",
+    "pairs": 610,
+    "lower": 0.0,
+    "upper": 0.32201682237555335,
+    "true_loss": 0.019000000000000003,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "just_inside_budget",
+    "strategy": "adaptive",
+    "pairs": 810,
+    "lower": 0.0,
+    "upper": 0.261540777394971,
+    "true_loss": 0.019000000000000003,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "just_inside_budget",
+    "strategy": "adaptive",
+    "pairs": 1010,
+    "lower": 0.0,
+    "upper": 0.23646872665676757,
+    "true_loss": 0.019000000000000003,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "just_inside_budget",
+    "strategy": "adaptive",
+    "pairs": 1210,
+    "lower": 0.0,
+    "upper": 0.20722651139410808,
+    "true_loss": 0.019000000000000003,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "just_inside_budget",
+    "strategy": "adaptive",
+    "pairs": 1410,
+    "lower": 0.0,
+    "upper": 0.19650011775226958,
+    "true_loss": 0.019000000000000003,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "just_inside_budget",
+    "strategy": "adaptive",
+    "pairs": 1610,
+    "lower": 0.0,
+    "upper": 0.18436219753316072,
+    "true_loss": 0.019000000000000003,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "just_inside_budget",
+    "strategy": "adaptive",
+    "pairs": 1810,
+    "lower": 0.0,
+    "upper": 0.17522660640266494,
+    "true_loss": 0.019000000000000003,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "just_inside_budget",
+    "strategy": "adaptive",
+    "pairs": 2010,
+    "lower": 0.0,
+    "upper": 0.1601324321043508,
+    "true_loss": 0.019000000000000003,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "just_inside_budget",
+    "strategy": "adaptive",
+    "pairs": 2210,
+    "lower": 0.0,
+    "upper": 0.1526069076142892,
+    "true_loss": 0.019000000000000003,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "just_inside_budget",
+    "strategy": "adaptive",
+    "pairs": 2410,
+    "lower": 0.0,
+    "upper": 0.1454285911942579,
+    "true_loss": 0.019000000000000003,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "just_inside_budget",
+    "strategy": "adaptive",
+    "pairs": 2610,
+    "lower": 0.0,
+    "upper": 0.1383846081206045,
+    "true_loss": 0.019000000000000003,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "just_inside_budget",
+    "strategy": "adaptive",
+    "pairs": 2810,
+    "lower": 0.0,
+    "upper": 0.13196568322517266,
+    "true_loss": 0.019000000000000003,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "just_inside_budget",
+    "strategy": "adaptive",
+    "pairs": 3010,
+    "lower": 0.0,
+    "upper": 0.1253838357191653,
+    "true_loss": 0.019000000000000003,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "just_inside_budget",
+    "strategy": "adaptive",
+    "pairs": 3210,
+    "lower": 0.0,
+    "upper": 0.12021799460206112,
+    "true_loss": 0.019000000000000003,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "just_inside_budget",
+    "strategy": "adaptive",
+    "pairs": 3410,
+    "lower": 0.0,
+    "upper": 0.11609471940781133,
+    "true_loss": 0.019000000000000003,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "just_inside_budget",
+    "strategy": "adaptive",
+    "pairs": 3610,
+    "lower": 0.0,
+    "upper": 0.11406216787569817,
+    "true_loss": 0.019000000000000003,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "just_inside_budget",
+    "strategy": "adaptive",
+    "pairs": 3810,
+    "lower": 0.0,
+    "upper": 0.11209923751556504,
+    "true_loss": 0.019000000000000003,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "just_inside_budget",
+    "strategy": "adaptive",
+    "pairs": 4010,
+    "lower": 0.0,
+    "upper": 0.10940598705743014,
+    "true_loss": 0.019000000000000003,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "just_inside_budget",
+    "strategy": "adaptive",
+    "pairs": 4210,
+    "lower": 0.0,
+    "upper": 0.10762030300447523,
+    "true_loss": 0.019000000000000003,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "just_inside_budget",
+    "strategy": "adaptive",
+    "pairs": 4410,
+    "lower": 0.0,
+    "upper": 0.10718086417329162,
+    "true_loss": 0.019000000000000003,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "just_inside_budget",
+    "strategy": "adaptive",
+    "pairs": 4610,
+    "lower": 0.0,
+    "upper": 0.10437144594028881,
+    "true_loss": 0.019000000000000003,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "just_inside_budget",
+    "strategy": "adaptive",
+    "pairs": 4810,
+    "lower": 0.0,
+    "upper": 0.10189758571880948,
+    "true_loss": 0.019000000000000003,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "just_outside_budget",
+    "strategy": "uniform",
+    "pairs": 10,
+    "lower": 0.0,
+    "upper": 0.9584592475672982,
+    "true_loss": 0.021000000000000005,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "just_outside_budget",
+    "strategy": "uniform",
+    "pairs": 210,
+    "lower": 0.0,
+    "upper": 0.632074378770012,
+    "true_loss": 0.021000000000000005,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "just_outside_budget",
+    "strategy": "uniform",
+    "pairs": 410,
+    "lower": 0.0,
+    "upper": 0.4345224324903424,
+    "true_loss": 0.021000000000000005,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "just_outside_budget",
+    "strategy": "uniform",
+    "pairs": 610,
+    "lower": 0.0,
+    "upper": 0.3368600912797077,
+    "true_loss": 0.021000000000000005,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "just_outside_budget",
+    "strategy": "uniform",
+    "pairs": 810,
+    "lower": 0.0,
+    "upper": 0.28491035589177593,
+    "true_loss": 0.021000000000000005,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "just_outside_budget",
+    "strategy": "uniform",
+    "pairs": 1010,
+    "lower": 0.0,
+    "upper": 0.2505619807262301,
+    "true_loss": 0.021000000000000005,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "just_outside_budget",
+    "strategy": "uniform",
+    "pairs": 1210,
+    "lower": 0.0,
+    "upper": 0.22999352136435894,
+    "true_loss": 0.021000000000000005,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "just_outside_budget",
+    "strategy": "uniform",
+    "pairs": 1410,
+    "lower": 0.0,
+    "upper": 0.20997519477905693,
+    "true_loss": 0.021000000000000005,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "just_outside_budget",
+    "strategy": "uniform",
+    "pairs": 1610,
+    "lower": 0.0,
+    "upper": 0.1937960586766778,
+    "true_loss": 0.021000000000000005,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "just_outside_budget",
+    "strategy": "uniform",
+    "pairs": 1810,
+    "lower": 0.0,
+    "upper": 0.1823099013266985,
+    "true_loss": 0.021000000000000005,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "just_outside_budget",
+    "strategy": "uniform",
+    "pairs": 2010,
+    "lower": 0.0,
+    "upper": 0.1700189854115647,
+    "true_loss": 0.021000000000000005,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "just_outside_budget",
+    "strategy": "uniform",
+    "pairs": 2210,
+    "lower": 0.0,
+    "upper": 0.16319827335140918,
+    "true_loss": 0.021000000000000005,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "just_outside_budget",
+    "strategy": "uniform",
+    "pairs": 2410,
+    "lower": 0.0,
+    "upper": 0.15910015293616894,
+    "true_loss": 0.021000000000000005,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "just_outside_budget",
+    "strategy": "uniform",
+    "pairs": 2610,
+    "lower": 0.0,
+    "upper": 0.15130601026257015,
+    "true_loss": 0.021000000000000005,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "just_outside_budget",
+    "strategy": "uniform",
+    "pairs": 2810,
+    "lower": 0.0,
+    "upper": 0.14365807850762627,
+    "true_loss": 0.021000000000000005,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "just_outside_budget",
+    "strategy": "uniform",
+    "pairs": 3010,
+    "lower": 0.0,
+    "upper": 0.14021237841749812,
+    "true_loss": 0.021000000000000005,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "just_outside_budget",
+    "strategy": "uniform",
+    "pairs": 3210,
+    "lower": 0.0,
+    "upper": 0.13402578390876904,
+    "true_loss": 0.021000000000000005,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "just_outside_budget",
+    "strategy": "uniform",
+    "pairs": 3410,
+    "lower": 0.0,
+    "upper": 0.13058011606758235,
+    "true_loss": 0.021000000000000005,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "just_outside_budget",
+    "strategy": "uniform",
+    "pairs": 3610,
+    "lower": 0.0,
+    "upper": 0.12832061826596536,
+    "true_loss": 0.021000000000000005,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "just_outside_budget",
+    "strategy": "uniform",
+    "pairs": 3810,
+    "lower": 0.0,
+    "upper": 0.12464334539339181,
+    "true_loss": 0.021000000000000005,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "just_outside_budget",
+    "strategy": "uniform",
+    "pairs": 4010,
+    "lower": 0.0,
+    "upper": 0.12238576131082887,
+    "true_loss": 0.021000000000000005,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "just_outside_budget",
+    "strategy": "uniform",
+    "pairs": 4210,
+    "lower": 0.0,
+    "upper": 0.1208799666495601,
+    "true_loss": 0.021000000000000005,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "just_outside_budget",
+    "strategy": "uniform",
+    "pairs": 4410,
+    "lower": 0.0,
+    "upper": 0.11868347068591009,
+    "true_loss": 0.021000000000000005,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "just_outside_budget",
+    "strategy": "uniform",
+    "pairs": 4610,
+    "lower": 0.0,
+    "upper": 0.1156545250322451,
+    "true_loss": 0.021000000000000005,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "just_outside_budget",
+    "strategy": "uniform",
+    "pairs": 4810,
+    "lower": 0.0,
+    "upper": 0.11469249740310605,
+    "true_loss": 0.021000000000000005,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "just_outside_budget",
+    "strategy": "adaptive",
+    "pairs": 10,
+    "lower": 0.0,
+    "upper": 0.9584592475672982,
+    "true_loss": 0.021000000000000005,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "just_outside_budget",
+    "strategy": "adaptive",
+    "pairs": 210,
+    "lower": 0.0,
+    "upper": 0.6245352765158713,
+    "true_loss": 0.021000000000000005,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "just_outside_budget",
+    "strategy": "adaptive",
+    "pairs": 410,
+    "lower": 0.0,
+    "upper": 0.4324734727533906,
+    "true_loss": 0.021000000000000005,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "just_outside_budget",
+    "strategy": "adaptive",
+    "pairs": 610,
+    "lower": 0.0,
+    "upper": 0.3351558267787944,
+    "true_loss": 0.021000000000000005,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "just_outside_budget",
+    "strategy": "adaptive",
+    "pairs": 810,
+    "lower": 0.0,
+    "upper": 0.2742123408086655,
+    "true_loss": 0.021000000000000005,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "just_outside_budget",
+    "strategy": "adaptive",
+    "pairs": 1010,
+    "lower": 0.0,
+    "upper": 0.2457009183837335,
+    "true_loss": 0.021000000000000005,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "just_outside_budget",
+    "strategy": "adaptive",
+    "pairs": 1210,
+    "lower": 0.0,
+    "upper": 0.22510876714422598,
+    "true_loss": 0.021000000000000005,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "just_outside_budget",
+    "strategy": "adaptive",
+    "pairs": 1410,
+    "lower": 0.0,
+    "upper": 0.206659283772832,
+    "true_loss": 0.021000000000000005,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "just_outside_budget",
+    "strategy": "adaptive",
+    "pairs": 1610,
+    "lower": 0.0,
+    "upper": 0.19182579992389626,
+    "true_loss": 0.021000000000000005,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "just_outside_budget",
+    "strategy": "adaptive",
+    "pairs": 1810,
+    "lower": 0.0,
+    "upper": 0.1822785256639187,
+    "true_loss": 0.021000000000000005,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "just_outside_budget",
+    "strategy": "adaptive",
+    "pairs": 2010,
+    "lower": 0.0,
+    "upper": 0.17141196031206615,
+    "true_loss": 0.021000000000000005,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "just_outside_budget",
+    "strategy": "adaptive",
+    "pairs": 2210,
+    "lower": 0.0,
+    "upper": 0.1636003344151868,
+    "true_loss": 0.021000000000000005,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "just_outside_budget",
+    "strategy": "adaptive",
+    "pairs": 2410,
+    "lower": 0.0,
+    "upper": 0.15690818153341488,
+    "true_loss": 0.021000000000000005,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "just_outside_budget",
+    "strategy": "adaptive",
+    "pairs": 2610,
+    "lower": 0.0,
+    "upper": 0.1499666602210152,
+    "true_loss": 0.021000000000000005,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "just_outside_budget",
+    "strategy": "adaptive",
+    "pairs": 2810,
+    "lower": 0.0,
+    "upper": 0.14323058626306634,
+    "true_loss": 0.021000000000000005,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "just_outside_budget",
+    "strategy": "adaptive",
+    "pairs": 3010,
+    "lower": 0.0,
+    "upper": 0.13726238230548407,
+    "true_loss": 0.021000000000000005,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "just_outside_budget",
+    "strategy": "adaptive",
+    "pairs": 3210,
+    "lower": 0.0,
+    "upper": 0.1345447327456382,
+    "true_loss": 0.021000000000000005,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "just_outside_budget",
+    "strategy": "adaptive",
+    "pairs": 3410,
+    "lower": 0.0,
+    "upper": 0.12993457330277652,
+    "true_loss": 0.021000000000000005,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "just_outside_budget",
+    "strategy": "adaptive",
+    "pairs": 3610,
+    "lower": 0.0,
+    "upper": 0.12779640405202675,
+    "true_loss": 0.021000000000000005,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "just_outside_budget",
+    "strategy": "adaptive",
+    "pairs": 3810,
+    "lower": 0.0,
+    "upper": 0.12397920844068662,
+    "true_loss": 0.021000000000000005,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "just_outside_budget",
+    "strategy": "adaptive",
+    "pairs": 4010,
+    "lower": 0.0,
+    "upper": 0.12213356935486086,
+    "true_loss": 0.021000000000000005,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "just_outside_budget",
+    "strategy": "adaptive",
+    "pairs": 4210,
+    "lower": 0.0,
+    "upper": 0.1180810376381881,
+    "true_loss": 0.021000000000000005,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "just_outside_budget",
+    "strategy": "adaptive",
+    "pairs": 4410,
+    "lower": 0.0,
+    "upper": 0.11579603832541975,
+    "true_loss": 0.021000000000000005,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "just_outside_budget",
+    "strategy": "adaptive",
+    "pairs": 4610,
+    "lower": 0.0,
+    "upper": 0.11420435196871478,
+    "true_loss": 0.021000000000000005,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "just_outside_budget",
+    "strategy": "adaptive",
+    "pairs": 4810,
+    "lower": 0.0,
+    "upper": 0.11186782494069135,
+    "true_loss": 0.021000000000000005,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "sparse_harm",
+    "strategy": "uniform",
+    "pairs": 10,
+    "lower": 0.0,
+    "upper": 0.9584592475672982,
+    "true_loss": 0.052000000000000005,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "sparse_harm",
+    "strategy": "uniform",
+    "pairs": 210,
+    "lower": 0.0,
+    "upper": 0.5789247454811084,
+    "true_loss": 0.052000000000000005,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "sparse_harm",
+    "strategy": "uniform",
+    "pairs": 410,
+    "lower": 0.0,
+    "upper": 0.3977152738002164,
+    "true_loss": 0.052000000000000005,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "sparse_harm",
+    "strategy": "uniform",
+    "pairs": 610,
+    "lower": 0.002528468114509448,
+    "upper": 0.30861911234568196,
+    "true_loss": 0.052000000000000005,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "sparse_harm",
+    "strategy": "uniform",
+    "pairs": 810,
+    "lower": 0.009132374488734054,
+    "upper": 0.25631834368880485,
+    "true_loss": 0.052000000000000005,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "sparse_harm",
+    "strategy": "uniform",
+    "pairs": 1010,
+    "lower": 0.01588802645773467,
+    "upper": 0.22527153537796643,
+    "true_loss": 0.052000000000000005,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "sparse_harm",
+    "strategy": "uniform",
+    "pairs": 1210,
+    "lower": 0.018476685450315323,
+    "upper": 0.19928329155603158,
+    "true_loss": 0.052000000000000005,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "sparse_harm",
+    "strategy": "uniform",
+    "pairs": 1290,
+    "lower": 0.021813814891223693,
+    "upper": 0.1924309181165964,
+    "true_loss": 0.052000000000000005,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "sparse_harm",
+    "strategy": "adaptive",
+    "pairs": 10,
+    "lower": 0.0,
+    "upper": 0.9584592475672982,
+    "true_loss": 0.052000000000000005,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "sparse_harm",
+    "strategy": "adaptive",
+    "pairs": 210,
+    "lower": 0.0,
+    "upper": 0.5886070823249429,
+    "true_loss": 0.052000000000000005,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "sparse_harm",
+    "strategy": "adaptive",
+    "pairs": 310,
+    "lower": 0.02102248618932026,
+    "upper": 0.5764650725328011,
+    "true_loss": 0.052000000000000005,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "heterogeneous_harm",
+    "strategy": "uniform",
+    "pairs": 10,
+    "lower": 0.0,
+    "upper": 0.9584592475672982,
+    "true_loss": 0.055499999999999994,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "heterogeneous_harm",
+    "strategy": "uniform",
+    "pairs": 210,
+    "lower": 0.0,
+    "upper": 0.6468126043629491,
+    "true_loss": 0.055499999999999994,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "heterogeneous_harm",
+    "strategy": "uniform",
+    "pairs": 410,
+    "lower": 0.0,
+    "upper": 0.477135259996973,
+    "true_loss": 0.055499999999999994,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "heterogeneous_harm",
+    "strategy": "uniform",
+    "pairs": 610,
+    "lower": 0.0,
+    "upper": 0.40218176377192477,
+    "true_loss": 0.055499999999999994,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "heterogeneous_harm",
+    "strategy": "uniform",
+    "pairs": 810,
+    "lower": 0.0,
+    "upper": 0.3526526412498179,
+    "true_loss": 0.055499999999999994,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "heterogeneous_harm",
+    "strategy": "uniform",
+    "pairs": 1010,
+    "lower": 0.0027660958156921047,
+    "upper": 0.31738186370891397,
+    "true_loss": 0.055499999999999994,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "heterogeneous_harm",
+    "strategy": "uniform",
+    "pairs": 1210,
+    "lower": 0.0066281003520070915,
+    "upper": 0.29736955519462277,
+    "true_loss": 0.055499999999999994,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "heterogeneous_harm",
+    "strategy": "uniform",
+    "pairs": 1410,
+    "lower": 0.008044414568562516,
+    "upper": 0.2748204489213806,
+    "true_loss": 0.055499999999999994,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "heterogeneous_harm",
+    "strategy": "uniform",
+    "pairs": 1610,
+    "lower": 0.011129180155747237,
+    "upper": 0.263622876616623,
+    "true_loss": 0.055499999999999994,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "heterogeneous_harm",
+    "strategy": "uniform",
+    "pairs": 1810,
+    "lower": 0.013171708901646822,
+    "upper": 0.2494521275707719,
+    "true_loss": 0.055499999999999994,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "heterogeneous_harm",
+    "strategy": "uniform",
+    "pairs": 2010,
+    "lower": 0.015608054302339951,
+    "upper": 0.24212648519228044,
+    "true_loss": 0.055499999999999994,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "heterogeneous_harm",
+    "strategy": "uniform",
+    "pairs": 2210,
+    "lower": 0.01751357731178789,
+    "upper": 0.2312475531011905,
+    "true_loss": 0.055499999999999994,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "heterogeneous_harm",
+    "strategy": "uniform",
+    "pairs": 2410,
+    "lower": 0.019086364061116606,
+    "upper": 0.22289471004813738,
+    "true_loss": 0.055499999999999994,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "heterogeneous_harm",
+    "strategy": "uniform",
+    "pairs": 2610,
+    "lower": 0.019698215667638023,
+    "upper": 0.21283849933457047,
+    "true_loss": 0.055499999999999994,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "heterogeneous_harm",
+    "strategy": "uniform",
+    "pairs": 2680,
+    "lower": 0.020451479995631593,
+    "upper": 0.21055348201027926,
+    "true_loss": 0.055499999999999994,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "heterogeneous_harm",
+    "strategy": "adaptive",
+    "pairs": 10,
+    "lower": 0.0,
+    "upper": 0.9584592475672982,
+    "true_loss": 0.055499999999999994,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "heterogeneous_harm",
+    "strategy": "adaptive",
+    "pairs": 210,
+    "lower": 0.0,
+    "upper": 0.6526772659680864,
+    "true_loss": 0.055499999999999994,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "heterogeneous_harm",
+    "strategy": "adaptive",
+    "pairs": 410,
+    "lower": 0.007416456272477563,
+    "upper": 0.5521525956002127,
+    "true_loss": 0.055499999999999994,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "heterogeneous_harm",
+    "strategy": "adaptive",
+    "pairs": 610,
+    "lower": 0.015767117560433315,
+    "upper": 0.4650263094751642,
+    "true_loss": 0.055499999999999994,
+    "epsilon": 0.02
+  },
+  {
+    "scenario": "heterogeneous_harm",
+    "strategy": "adaptive",
+    "pairs": 810,
+    "lower": 0.020485819656909043,
+    "upper": 0.4209463704419568,
+    "true_loss": 0.055499999999999994,
+    "epsilon": 0.02
+  }
+]

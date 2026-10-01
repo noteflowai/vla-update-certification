@@ -1,0 +1,16 @@
+{
+  "frozen_at": "2026-10-01T01:54:00.756575+00:00",
+  "scope": "Separate pre-retry operations snapshot; no native runtime/evaluator changes. Stricter pre-import admission and one same-context retry only after the zero-episode first provisioning stop. Queue idle wait consumes no GPU reservation. Raw audit is post-collection read-only analysis, not model data.",
+  "sources": {
+    "/home/dcvuser/work/research/second-paper-options-2026-09-30/experiments/queue_native_first_batch.py": "604165095477b76e18c9c03120df0c1f491859a301309d166ef225f4c462fdf2",
+    "/home/dcvuser/work/research/second-paper-options-2026-09-30/experiments/audit_native_evidence.py": "55b3d74e372d643082b69bcdcc6ce1e05a2a2d72d2a53845fdb759d8932debc4",
+    "/home/dcvuser/work/research/second-paper-options-2026-09-30/runs/pi05-baseline-native-20261001-001/reconciliation-001.json": "ff0381df7c6a6643b814f9e53c1f87c6094380345c8ce4496da4e3a17abd176f",
+    "/home/dcvuser/work/research/second-paper-options-2026-09-30/analysis/native-resource-after-stop-001.json": "32706119dd896cc793350c03f61b2b4f35bd873af8fc207bf239a1a4ccc00f43"
+  },
+  "original_native_snapshot": "/home/dcvuser/work/research/second-paper-options-2026-09-30/protocols/native-producer-003/manifest.json",
+  "native_related_controls_passed": 42,
+  "queue_and_analysis_validation": "Syntax checked and actual blocked admission observed; not included among the 42 native control tests. Full native collection and raw audit remain unvalidated on complete real data.",
+  "native_update_pairs_collected": 0,
+  "queue_native_launches_at_freeze": 0,
+  "original_context_sha256": "b874945c326ff93491d185735f1943da7e4526aa1ef182a80e1965841e005b56"
+}

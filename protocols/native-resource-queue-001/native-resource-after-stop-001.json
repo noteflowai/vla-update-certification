@@ -1,0 +1,10 @@
+{
+  "checked_at": "2026-10-01T01:36:22.500488+00:00",
+  "host_available_bytes": 19033923584,
+  "host_required_bytes": 19327352832,
+  "gpu_required_free_bytes": 30064771072,
+  "gpu_name": "NVIDIA L40S",
+  "gpu_free_bytes": 40888172544,
+  "gpu_used_bytes": 6781140992,
+  "allowed": false
+}

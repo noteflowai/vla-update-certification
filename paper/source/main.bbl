@@ -1,0 +1,79 @@
+\begin{thebibliography}{10}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Bansal et~al.(2019)Bansal, Nushi, Kamar, Weld, Lasecki, and
+  Horvitz]{backward}
+Gagan Bansal, Besmira Nushi, Ece Kamar, Daniel~S. Weld, Walter~S. Lasecki, and
+  Eric Horvitz.
+\newblock Updates in human-ai teams: Understanding and addressing the
+  performance/compatibility tradeoff.
+\newblock \emph{Proceedings of the AAAI Conference on Artificial Intelligence},
+  33, 2019.
+\newblock \doi{10.1609/aaai.v33i01.33012429}.
+
+\bibitem[Chen et~al.(2026)Chen, Zhou, Shi, Li, Feng, and Gu]{bugs}
+Qiwei Chen, Kaijun Zhou, Nuohui Shi, Zhiyang Li, Yuxuan Feng, and Jinyu Gu.
+\newblock Faster and better? benchmark bugs and design limitations distort the
+  evaluation of vision-language-action acceleration.
+\newblock arXiv:2609.37771, 2026.
+
+\bibitem[Guo(2026)]{prior}
+Qiang Guo.
+\newblock Higher success, new failures: Measuring per-state regressions in vla
+  policy updates, 2026.
+\newblock Unpublished nonarchival workshop submission, revised September 30.
+
+\bibitem[Howard et~al.(2021)Howard, Ramdas, McAuliffe, and Sekhon]{howard}
+Steven~R. Howard, Aaditya Ramdas, Jon McAuliffe, and Jasjeet Sekhon.
+\newblock Time-uniform, nonparametric, nonasymptotic confidence sequences.
+\newblock \emph{The Annals of Statistics}, 49\penalty0 (2), 2021.
+\newblock \doi{10.1214/20-AOS1991}.
+
+\bibitem[Jia(2026)]{collapse}
+Fengze Jia.
+\newblock Anatomy of a closed-loop collapse: A causal case study of a
+  compressed vla policy.
+\newblock arXiv:2609.23048, 2026.
+
+\bibitem[Ma and Wu(2026)]{admission}
+Qinzhen Ma and Ruihai Wu.
+\newblock When validation stops learning: Auditing update admission for
+  continual embodied agents.
+\newblock arXiv:2609.10873, 2026.
+
+\bibitem[Snyder et~al.(2025)Snyder, Hancock, Badithela, Dixon, Miller, Ambrus,
+  Majumdar, Itkina, and Nishimura]{step}
+David Snyder, Asher~James Hancock, Apurva Badithela, Emma Dixon, Patrick
+  Miller, Rares~Andrei Ambrus, Anirudha Majumdar, Masha Itkina, and Haruki
+  Nishimura.
+\newblock Is your imitation learning policy better than mine? policy comparison
+  with near-optimal stopping.
+\newblock arXiv:2503.10966, 2025.
+
+\bibitem[Snyder et~al.(2026)Snyder, Badithela, Matni, Pappas, Majumdar, Itkina,
+  and Nishimura]{savi}
+David Snyder, Apurva Badithela, Nikolai Matni, George Pappas, Anirudha
+  Majumdar, Masha Itkina, and Haruki Nishimura.
+\newblock Beyond binary success: Sample-efficient and statistically rigorous
+  robot policy comparison.
+\newblock arXiv:2603.13616, 2026.
+
+\bibitem[Xu et~al.(2026)Xu, Jin, Chen, Wang, Sui, and Shi]{quantbench}
+Jiuyi Xu, Qing Jin, Meida Chen, Song Wang, Yang Sui, and Yangming Shi.
+\newblock {VLAQuantBench}: Closed-loop evaluation of post-training quantization
+  for {Vision-Language-Action} models.
+\newblock arXiv:2609.25376, 2026.
+
+\bibitem[Zhang et~al.(2026)Zhang, Jin, Liu, Wang, Zhang, Zhang, Zhang, Zhang,
+  Niu, Li, Yang, Hamm, Lourentzou, Ye, Liu, Stone, and Pavone]{max}
+Yunbei Zhang, Zijian Jin, Yuanzhe Liu, Janet Wang, Xilun Zhang, Yuyou Zhang,
+  Zhenyu Zhang, Daoan Zhang, Shuaicheng Niu, Gen Li, Jianfei Yang, Jihun Hamm,
+  Ismini Lourentzou, Weirui Ye, Bo~Liu, Peter Stone, and Marco Pavone.
+\newblock Libero-max: Do robot policies adapt when the world changes?
+\newblock arXiv:2609.36518, 2026.
+
+\end{thebibliography}

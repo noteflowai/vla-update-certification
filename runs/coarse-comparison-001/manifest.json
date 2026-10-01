@@ -1,0 +1,20 @@
+{
+  "started_at": "2026-09-30T05:47:34.223535+00:00",
+  "scope": "synthetic development only",
+  "seed": 424243,
+  "repetitions": 30,
+  "states": 20,
+  "cap_pairs": 5000,
+  "alpha": 0.05,
+  "delta": 0.02,
+  "epsilon": 0.02,
+  "sources": {
+    "COARSE_PROTOCOL.md": "891e8a27e599c2fab440e310d66c6f296de2dff1560c70157abc6786600cf479",
+    "admission.py": "dd3fa926087e61a6e41cbb3357b6d429ab4298a57723a5efacc00b044485f0da",
+    "joint_admission.py": "0eb3e58100b06fc3d6285360ee6e8882efbf8a3b1afeeafbf4432385b9df652e",
+    "coarse_admission.py": "6be7d917265f2d50dbfd0869f96dd1092d7288cc27763312c834d624cff8f63d",
+    "run_admission.py": "cf89214ee38322d2af4a9e8c15a37f984d09f82375096373a61b32bab4db1aaa",
+    "run_coarse_comparison.py": "b3f460369dcaed793be6e9f33dd22d0e2a9a2db123531bde114d2414360ed669",
+    "test_coarse_admission.py": "bb926d16e4e90d5c3f2f125d8c3dbf4c1062c67774b224bf9aff17d69a50758b"
+  }
+}

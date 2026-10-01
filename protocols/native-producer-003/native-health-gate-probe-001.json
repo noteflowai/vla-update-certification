@@ -1,0 +1,21 @@
+{
+  "checked_at": "2026-10-01T00:42:59.481006+00:00",
+  "command": [
+    "/tmp/vlareg/.venv/bin/python",
+    "experiments/run_native_collection.py",
+    "--family",
+    "pi05",
+    "--update",
+    "baseline_reload",
+    "--health-receipt",
+    "/home/dcvuser/work/research/second-paper-options-2026-09-30/analysis/pi05-health-20261001-003-supervisor.json",
+    "--output",
+    "/home/dcvuser/work/research/second-paper-options-2026-09-30/runs/pi05-baseline-native-gate-probe-001",
+    "--prepare-only"
+  ],
+  "exit_code": 1,
+  "output_created": false,
+  "expected_rejection": "Family health and clean worker exit are required",
+  "rejected_before_model_import": true,
+  "native_update_pairs_collected": 0
+}

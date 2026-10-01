@@ -1,0 +1,22 @@
+{
+  "verified_at": "2026-09-30T05:49:56.192955+00:00",
+  "source_hashes_verified": true,
+  "consumed_outcomes_reconstructed": true,
+  "iid_state_prefix_counts_verified": true,
+  "coarse_first_inspection_stop_verified": true,
+  "bernoulli_roots_independently_verified": true,
+  "strategy_rows": 1440,
+  "independent_scenario_repetitions": 240,
+  "paired_strategies_per_repetition": 6,
+  "false_accept": 0,
+  "false_reject": 0,
+  "zero_errors_out_of_30_two_sided_exact_95_upper": 0.11570330822202779,
+  "pooled_all_zero_discordance_pairs_first_integer": 349,
+  "pooled_all_zero_discordance_pairs_first_ten_pair_inspection": 350,
+  "run_sha256": {
+    "manifest.json": "73d51b5f5f6b6f37f03428988fe9094f7531d69855c3c8eaf6850bd925ed8860",
+    "observations.jsonl": "be9f0f1d8e1e96a16e78aec8343f2ab314cd34d57aa05839eb4d294d13b5421a",
+    "summary.json": "bedf1085e24c9512d7e5a308504e41c05324255bee0067201fe7a7a7b4dd05c4"
+  },
+  "scope": "Synthetic development; no operational time or independent pooled strategy inference."
+}

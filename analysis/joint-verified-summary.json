@@ -1,0 +1,73 @@
+{
+  "verified_at": "2026-09-30T05:08:43.915559+00:00",
+  "source_hashes_verified": true,
+  "consumed_outcomes_reconstructed": true,
+  "strategy_rows": 1050,
+  "independent_scenario_repetitions": 210,
+  "paired_strategies_per_repetition": 5,
+  "false_accept": 0,
+  "false_reject": 0,
+  "zero_errors_out_of_30_two_sided_exact_95_upper": 0.11570330822202779,
+  "paired_savings": [
+    {
+      "scenario": "sparse_harm",
+      "method": "marginal",
+      "matched_correct_rejections": 30,
+      "median_paired_fraction_saved": 0.764260065928891,
+      "exploratory_percentile_bootstrap_95": [
+        0.7415620498044865,
+        0.7801969625059326
+      ]
+    },
+    {
+      "scenario": "sparse_harm",
+      "method": "joint",
+      "matched_correct_rejections": 30,
+      "median_paired_fraction_saved": 0.7305574098798399,
+      "exploratory_percentile_bootstrap_95": [
+        0.7099183322587578,
+        0.7478813559322034
+      ]
+    },
+    {
+      "scenario": "heterogeneous_harm",
+      "method": "marginal",
+      "matched_correct_rejections": 30,
+      "median_paired_fraction_saved": 0.6964891868875269,
+      "exploratory_percentile_bootstrap_95": [
+        0.6843293582424017,
+        0.7093855218855218
+      ]
+    },
+    {
+      "scenario": "heterogeneous_harm",
+      "method": "joint",
+      "matched_correct_rejections": 30,
+      "median_paired_fraction_saved": 0.6572791108107093,
+      "exploratory_percentile_bootstrap_95": [
+        0.6419087441314554,
+        0.6656981436642453
+      ]
+    }
+  ],
+  "zero_discordance_cost": [
+    {
+      "states": 20,
+      "equal_repeats": 304,
+      "pairs": 6080,
+      "scope": "Specific joint bound with zero observed discordance"
+    },
+    {
+      "states": 100,
+      "equal_repeats": 347,
+      "pairs": 34700,
+      "scope": "Specific joint bound with zero observed discordance"
+    }
+  ],
+  "run_sha256": {
+    "manifest.json": "9366a99599471720408c6bce14dcc3e1acee81874810b026ca35565bcb616b29",
+    "observations.jsonl": "f72f8e49cd98a4a217d61438f596642d4cf32c6c337f1d204c7d00a259455404",
+    "summary.json": "1b52902b889f915817e5053c8c051c4fa2020b824fcb543c2cb1d4b2de20ca67"
+  },
+  "scope": "Synthetic development; paired strategies are not independent trials."
+}

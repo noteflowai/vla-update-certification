@@ -1,0 +1,50 @@
+[
+  {
+    "variant": "bf16",
+    "states": 100,
+    "paired_observations": 500,
+    "estimated_loss": 0.03439999999999999,
+    "loss_lower": 0.0,
+    "loss_upper": 0.8464076115847569,
+    "decision": "uncertain",
+    "minimum_repeats": 5,
+    "maximum_repeats": 5,
+    "scope": "descriptive replay; not new closed-loop validation"
+  },
+  {
+    "variant": "w4",
+    "states": 100,
+    "paired_observations": 500,
+    "estimated_loss": 0.016800000000000002,
+    "loss_lower": 0.0,
+    "loss_upper": 0.8449471012743528,
+    "decision": "uncertain",
+    "minimum_repeats": 5,
+    "maximum_repeats": 5,
+    "scope": "descriptive replay; not new closed-loop validation"
+  },
+  {
+    "variant": "w3",
+    "states": 100,
+    "paired_observations": 500,
+    "estimated_loss": 0.2014,
+    "loss_lower": 0.0,
+    "loss_upper": 0.879427270648703,
+    "decision": "uncertain",
+    "minimum_repeats": 5,
+    "maximum_repeats": 5,
+    "scope": "descriptive replay; not new closed-loop validation"
+  },
+  {
+    "variant": "steps2",
+    "states": 100,
+    "paired_observations": 500,
+    "estimated_loss": 0.0036000000000000003,
+    "loss_lower": 0.0,
+    "loss_upper": 0.8407490428336608,
+    "decision": "uncertain",
+    "minimum_repeats": 5,
+    "maximum_repeats": 5,
+    "scope": "descriptive replay; not new closed-loop validation"
+  }
+]

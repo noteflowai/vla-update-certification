@@ -1,0 +1,17 @@
+{
+  "previous_completed_state_only": true,
+  "actions_shape": [
+    331,
+    1,
+    7
+  ],
+  "states_shape": [
+    332,
+    123
+  ],
+  "step_inventory_exact": true,
+  "state_digest_matches": true,
+  "saved_snapshots_equal": true,
+  "input_digest_matches": true,
+  "full_health_gate_passed": false
+}
